@@ -68,12 +68,14 @@ export default function About() {
             </div>
           </div>
           <div className="w-1/2 max-lg:w-full">
-            <p className="text-white text-lg">
-              <span className="font-bold text-amber-200 text-2xl">
-                Preston City Games returns to the UCLan Sports Arena on Friday
-                30th June 2023, from 12.00 midday.{" "}
+            <p className="text-white text-3xl font-title tracking-wide">
+              <span className="text-amber-400">Preston City Games</span> returns
+              to the UCLan Sports Arena on{" "}
+              <span className="text-amber-400">
+                Friday 30th June 2023, from 12.00 midday.
               </span>
-              <br />
+            </p>
+            <p className="text-white text-lg">
               <br />
               Preston City Games is a fun, one day sporting festival that pits
               teams of businesses and charities against each other in a
@@ -83,7 +85,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <p className="text-lg font-bold text-amber-100 text-center mt-10">
+        <p className="text-xl font-bold text-amber-100 text-center mt-10">
           The event is a great opportunity for businesses and charities to take
           part in a fun, but truly competitive, sporting event.
         </p>

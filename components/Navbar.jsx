@@ -30,7 +30,7 @@ export default function Navbar() {
             Register
           </a>
           <a
-            href="venue"
+            href="#venue"
             className="text-neutral-50 hover:text-amber-200 font-bold"
           >
             Venues
