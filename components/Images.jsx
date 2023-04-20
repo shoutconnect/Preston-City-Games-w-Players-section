@@ -33,7 +33,7 @@ export default function Images() {
               <div className="z-20 grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
-                    src="/imgs/placeholder.png"
+                    src="/imgs/6.png"
                     alt="People practicing sports"
                     width={1000}
                     height={1000}
@@ -42,36 +42,7 @@ export default function Images() {
                 </div>
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
-                    src="/imgs/placeholder.png"
-                    alt="People practicing sports"
-                    width={1000}
-                    height={1000}
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-              </div>
-              <div className="z-20 grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
-                  <Image
-                    src="/imgs/placeholder.png"
-                    alt="People practicing sports"
-                    width={1000}
-                    height={1000}
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-                <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
-                  <Image
-                    src="/imgs/placeholder.png"
-                    alt="People practicing sports"
-                    width={1000}
-                    height={1000}
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-                <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
-                  <Image
-                    src="/imgs/placeholder.png"
+                    src="/imgs/4.png"
                     alt="People practicing sports"
                     width={1000}
                     height={1000}
@@ -82,7 +53,7 @@ export default function Images() {
               <div className="z-20 grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
-                    src="/imgs/placeholder.png"
+                    src="/imgs/7.png"
                     alt="People practicing sports"
                     width={1000}
                     height={1000}
@@ -91,7 +62,36 @@ export default function Images() {
                 </div>
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
-                    src="/imgs/placeholder.png"
+                    src="/imgs/8.png"
+                    alt="People practicing sports"
+                    width={1000}
+                    height={1000}
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+                <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
+                  <Image
+                    src="/imgs/3.png"
+                    alt="People practicing sports"
+                    width={1000}
+                    height={1000}
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+              </div>
+              <div className="z-20 grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
+                  <Image
+                    src="/imgs/5.png"
+                    alt="People practicing sports"
+                    width={1000}
+                    height={1000}
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+                <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
+                  <Image
+                    src="/imgs/9.png"
                     alt="People practicing sports"
                     width={1000}
                     height={1000}
