@@ -7,7 +7,7 @@
 
 export default function Venue() {
   return (
-    <div className="py-24 max-sm:py-16">
+    <div className="py-24 max-sm:py-16" id="venue">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <p className="text-white">
           Venues for Preston City Games UCLan Sports Arena Ashton & Lea Golf
