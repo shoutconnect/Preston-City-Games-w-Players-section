@@ -7,6 +7,7 @@ import Venue from "@/components/Venue";
 import Price from "@/components/Price";
 import Cta from "@/components/Cta";
 import About from "@/components/About";
+import Images from "@/components/Images";
 // Outside data
 
 /////////////////////////////
@@ -23,7 +24,7 @@ export default function Home() {
       <main className="overflow-x-hidden ">
         <Hero />
         <About />
-        <Cta />
+        <Images />
         <Price />
         <Venue />
       </main>

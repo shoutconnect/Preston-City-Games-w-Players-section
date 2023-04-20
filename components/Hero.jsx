@@ -2,10 +2,8 @@
 import {
   RiFacebookCircleFill,
   RiInstagramFill,
-  RiLinkedinBoxFill,
   RiLinkedinFill,
   RiTwitterFill,
-  RiYoutubeFill,
 } from "react-icons/ri";
 // Libraries
 // Components
@@ -34,10 +32,10 @@ export default function Hero() {
               <a
                 href="/"
                 target="_blank"
-                class="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-amber-400 hover:bg-gradient-to-r hover:from-amber-400 hover:to-amber-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-amber-400 transition-all ease-out duration-300"
+                className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-amber-400 hover:bg-gradient-to-r hover:from-amber-400 hover:to-amber-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-amber-400 transition-all ease-out duration-300"
               >
-                <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                <span class="relative">Register now</span>
+                <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                <span className="relative">Register now</span>
               </a>
             </div>
           </div>
@@ -77,6 +75,7 @@ export default function Hero() {
                   fill
                   alt="Preston City Games logo"
                   className=""
+                  priority
                 />
               </div>
               <div className="absolute z-30 h-52 max-lg:h-32 w-52 max-lg:w-32 bottom-32 left-0 bg-teal-400 rounded-full blur-2xl animate-pulse" />

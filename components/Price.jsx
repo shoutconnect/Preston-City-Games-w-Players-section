@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Price() {
   return (
-    <div className="py-24 max-sm:py-16">
+    <div className="">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-6 max-sm:gap-8">
           <div
@@ -99,10 +99,10 @@ export default function Price() {
               <a
                 href="/"
                 target="_blank"
-                class="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-green-500 hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300"
+                className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-green-500 hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300"
               >
-                <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                <span class="relative">Register</span>
+                <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                <span className="relative">Register</span>
               </a>
             </div>
           </div>
@@ -198,10 +198,10 @@ export default function Price() {
               <a
                 href="/"
                 target="_blank"
-                class="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-orange-400 hover:bg-gradient-to-r hover:from-orange-400 hover:to-orange-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-orange-300 transition-all ease-out duration-300"
+                className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-orange-400 hover:bg-gradient-to-r hover:from-orange-400 hover:to-orange-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-orange-300 transition-all ease-out duration-300"
               >
-                <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                <span class="relative">Register</span>
+                <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                <span className="relative">Register</span>
               </a>
             </div>
           </div>
@@ -297,10 +297,10 @@ export default function Price() {
               <a
                 href="/"
                 target="_blank"
-                class="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-purple-400 hover:bg-gradient-to-r hover:from-purple-400 hover:to-purple-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-purple-300 transition-all ease-out duration-300"
+                className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-purple-400 hover:bg-gradient-to-r hover:from-purple-400 hover:to-purple-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-purple-300 transition-all ease-out duration-300"
               >
-                <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                <span class="relative">Register</span>
+                <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                <span className="relative">Register</span>
               </a>
             </div>
           </div>
@@ -396,14 +396,18 @@ export default function Price() {
               <a
                 href="/"
                 target="_blank"
-                class="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-sky-300 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-200 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-sky-300 transition-all ease-out duration-300"
+                className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-sky-300 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-200 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-sky-300 transition-all ease-out duration-300"
               >
-                <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                <span class="relative">Register</span>
+                <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                <span className="relative">Register</span>
               </a>
             </div>
           </div>
         </div>
+        <p className="text-neutral-50/70 italic text-center text-sm mt-4">
+          For any businesses or charities keen to participate, early
+          registration is recommended as spaces are limited.
+        </p>
       </div>
     </div>
   );
