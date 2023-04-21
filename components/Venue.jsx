@@ -39,7 +39,7 @@ export default function Venue() {
           >
             <div className="absolute z-10 top-0 left-0 transform -scale-y-100 w-full">
               <svg
-                className="waves"
+                className="waves-venue"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
                 viewBox="0 26 100 38"
@@ -81,10 +81,10 @@ export default function Venue() {
               </svg>
             </div>
             <div className="z-50 flex flex-col gap-2 max-sm:gap-0">
-              <p className="uppercase text-xs font-bold text-amber-100">
+              <p className="uppercase text-xs font-bold text-neutral-50">
                 Venue
               </p>
-              <p className="text-4xl max-md:text-3xl max-sm:text-2xl font-title text-amber-100 tracking-wide">
+              <p className="text-4xl max-md:text-3xl max-sm:text-2xl font-title text-neutral-50 tracking-wide">
                 UCLan Sports Arena
               </p>
             </div>
@@ -111,7 +111,7 @@ export default function Venue() {
           >
             <div className="absolute z-10 top-0 left-0 transform -scale-y-100 w-full">
               <svg
-                className="waves"
+                className="waves-venue"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
                 viewBox="0 26 100 38"
@@ -153,10 +153,10 @@ export default function Venue() {
               </svg>
             </div>
             <div className="z-50 flex flex-col gap-2 max-sm:gap-0">
-              <p className="uppercase text-xs font-bold text-amber-100">
+              <p className="uppercase text-xs font-bold text-neutral-50">
                 Venue
               </p>
-              <p className="text-4xl max-md:text-3xl max-sm:text-2xl font-title text-amber-100 tracking-wide">
+              <p className="text-4xl max-md:text-3xl max-sm:text-2xl font-title text-neutral-50 tracking-wide">
                 Ashton & Lea Golf Club
               </p>
             </div>
