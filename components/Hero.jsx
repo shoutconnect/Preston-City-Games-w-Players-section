@@ -18,7 +18,10 @@ export default function Hero() {
     <div className="py-24 max-sm:py-16">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="flex max-lg:flex-col-reverse max-lg:gap-8 max-lg:items-center items-start">
-          <div className="w-1/2 max-lg:w-full flex flex-col items-start max-lg:items-center justify-center gap-6 max-lg:text-center">
+          <div
+            data-aos="zoom-out"
+            className="w-1/2 max-lg:w-full flex flex-col items-start max-lg:items-center justify-center gap-6 max-lg:text-center"
+          >
             <h1 className="z-[60] text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-white tracking-wide leading-[75px]">
               Are you a <span className="text-amber-400">business</span> or{" "}
               <span className="text-amber-400 ">charity team</span> with a
@@ -38,7 +41,10 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          <div className="relative w-1/2 max-lg:w-full flex items-center justify-center">
+          <div
+            data-aos="zoom-out"
+            className="relative w-1/2 max-lg:w-full flex items-center justify-center"
+          >
             <div className="relative">
               <div className="relative z-40 h-[450px] w-[450px] max-lg:h-[300px] max-lg:w-[300px]">
                 <a
@@ -56,7 +62,7 @@ export default function Hero() {
                   <RiTwitterFill className=" text-3xl" />
                 </a>
                 <a
-                  href="/"
+                  href="https://www.instagram.com/shoutnetworkofficial/"
                   target="_blank"
                   className="absolute z-50 right-14 max-lg:right-6 top-8 max-lg:top-2 flex items-center justify-center w-10 h-10 bg-white/80 hover:bg-pink-600 text-pink-600 hover:text-white rounded-full shadow-md "
                 >

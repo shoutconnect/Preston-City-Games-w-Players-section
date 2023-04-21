@@ -9,11 +9,14 @@ export default function Venue() {
   return (
     <div className="py-24 max-sm:py-16" id="venue">
       <div className="px-6 mx-auto max-w-7xl lg:px-8 flex flex-col gap-12">
-        <h1 className=" max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-sm:text-4xl max-xl:leading-[65px] max-lg:text-center font-title text-white tracking-wide leading-[75px]">
+        <h1
+          data-aos="zoom-out"
+          className=" max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-sm:text-4xl max-xl:leading-[65px] max-lg:text-center font-title text-white tracking-wide leading-[75px]"
+        >
           Venues for <br />
           <span className="text-amber-400">Preston City Games</span>
         </h1>
-        <div className="flex max-sm:flex-col gap-8">
+        <div data-aos="zoom-out" className="flex max-sm:flex-col gap-8">
           <div className="w-2/3 max-xl:w-3/5 max-lg:w-1/2 max-sm:w-full h-72 rounded-lg overflow-hidden hover:scale-105 max-sm:hover:scale-100">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2357.684623557198!2d-2.7588691229163906!3d53.77730154239053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b6dcf58aadf7f%3A0x4b55145fca804628!2sUCLan%20Sports%20Arena!5e0!3m2!1sen!2suk!4v1682068348587!5m2!1sen!2suk"
@@ -95,7 +98,7 @@ export default function Venue() {
             </div>
           </div>
         </div>
-        <div className="flex max-sm:flex-col-reverse gap-8">
+        <div data-aos="zoom-out" className="flex max-sm:flex-col-reverse gap-8">
           <div className="relative w-1/3 max-xl:w-2/5 max-lg:w-1/2 max-sm:w-full max-sm:h-60 max-sm:text-center text-white flex flex-col justify-between rounded-lg overflow-hidden bg-neutral-50 p-6 hover:scale-105 max-sm:hover:scale-100">
             <div className="absolute z-10 top-0 left-0 transform -scale-y-100 w-full">
               <svg

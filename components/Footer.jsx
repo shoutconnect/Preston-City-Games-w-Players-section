@@ -26,7 +26,7 @@ export default function Footer() {
     },
     {
       name: "Instagram",
-      href: "#",
+      href: "https://www.instagram.com/shoutnetworkofficial/",
       icon: <RiInstagramFill className="h-6 w-6" />,
     },
     {
@@ -44,6 +44,7 @@ export default function Footer() {
             <a
               key={item.name}
               href={item.href}
+              target="_blank"
               className="text-gray-400 hover:text-gray-500"
             >
               <span className="sr-only">{item.name}</span>
