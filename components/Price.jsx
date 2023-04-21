@@ -9,10 +9,11 @@ import Image from "next/image";
 
 export default function Price() {
   return (
-    <div data-aos="zoom-out" className="" id="register">
+    <div className="" id="register">
       <div className="px-6 mx-auto max-w-7xl lg:px-8 flex flex-col gap-12">
         <div className="grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-6 max-sm:gap-8 ">
           <div
+            data-aos="fade-down"
             id="Football"
             className="text-center hover:scale-105 max-sm:hover:scale-100 "
           >
@@ -107,6 +108,7 @@ export default function Price() {
             </div>
           </div>
           <div
+            data-aos="fade-up"
             id="Netball"
             className="text-center hover:scale-105 max-sm:hover:scale-100"
           >
@@ -206,6 +208,7 @@ export default function Price() {
             </div>
           </div>
           <div
+            data-aos="fade-down"
             id="Rounders"
             className="text-center hover:scale-105 max-sm:hover:scale-100"
           >
@@ -305,6 +308,7 @@ export default function Price() {
             </div>
           </div>
           <div
+            data-aos="fade-up"
             id="Golf"
             className="text-center hover:scale-105 max-sm:hover:scale-100"
           >

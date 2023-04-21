@@ -31,9 +31,12 @@ export default function Images() {
               as they wish.
             </span>
           </div>
-          <div data-aos="zoom-out" className="relative w-1/2 max-lg:w-full">
+          <div className="relative w-1/2 max-lg:w-full">
             <div className="flex items-center justify-center space-x-6 lg:space-x-8">
-              <div className="z-20 grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+              <div
+                data-aos="fade-down"
+                className="z-20 grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8"
+              >
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
                     src="/imgs/6.png"
@@ -53,7 +56,10 @@ export default function Images() {
                   />
                 </div>
               </div>
-              <div className="z-20 grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+              <div
+                data-aos="fade-up"
+                className="z-20 grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8"
+              >
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
                     src="/imgs/7.png"
@@ -82,7 +88,10 @@ export default function Images() {
                   />
                 </div>
               </div>
-              <div className="z-20 grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+              <div
+                data-aos="fade-down"
+                className="z-20 grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8"
+              >
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
                     src="/imgs/5.png"
