@@ -16,12 +16,12 @@ export default function Footer() {
   const navigation = [
     {
       name: "Linkedin",
-      href: "#",
+      href: "https://www.linkedin.com/company/prestoncitygames",
       icon: <RiLinkedinFill className="h-6 w-6" />,
     },
     {
       name: "Facebook",
-      href: "#",
+      href: "https://www.facebook.com/prestoncitygames",
       icon: <RiFacebookCircleFill className="h-6 w-6" />,
     },
     {
@@ -31,7 +31,7 @@ export default function Footer() {
     },
     {
       name: "Twitter",
-      href: "#",
+      href: "https://twitter.com/pr_citygames",
       icon: <RiTwitterFill className="h-6 w-6" />,
     },
   ];

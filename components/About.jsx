@@ -14,7 +14,7 @@ export default function About() {
         <div className="flex max-lg:flex-col gap-8">
           <div className="w-1/2 max-lg:w-full">
             <div className="grid grid-cols-2 gap-4">
-              <div className="flex flex-col items-end justify-end text-white text-3xl font-title tracking-wide text-right">
+              <div className="flex flex-col items-end justify-end text-white text-4xl max-sm:text-3xl font-title tracking-wide text-right">
                 <p>Organised by the</p>
                 <p>
                   <span className="text-amber-400">dream team</span> of
@@ -23,7 +23,7 @@ export default function About() {
               <a
                 href="https://shoutconnect.uk/"
                 target="_blank"
-                className="flex items-center justify-center bg-white/70 hover:bg-white/100 hover:scale-105 border border-white  rounded-lg  h-28 w-auto"
+                className="flex items-center justify-center bg-white/80 hover:bg-white/100 hover:scale-105 border border-white  rounded-lg  h-28 w-auto"
               >
                 <div>
                   <Image
@@ -38,7 +38,7 @@ export default function About() {
               <a
                 href="https://www.uclan.ac.uk/facilities/sports-arena"
                 target="_blank"
-                className="flex items-center justify-center bg-white/70 hover:bg-white/100 hover:scale-105 border border-white  rounded-lg  h-28 w-auto"
+                className="flex items-center justify-center bg-white/80 hover:bg-white/100 hover:scale-105 border border-white  rounded-lg  h-28 w-auto"
               >
                 <div>
                   <Image
@@ -46,14 +46,14 @@ export default function About() {
                     alt="UCLan Logo"
                     width={1000}
                     height={1000}
-                    className="h-16 w-auto object-cover object-center "
+                    className="h-16 max-sm:h-14 w-auto object-cover object-center "
                   />
                 </div>
               </a>
               <a
                 href="https://www.preston.gov.uk/"
                 target="_blank"
-                className="flex items-center justify-center bg-white/70 hover:bg-white/100 hover:scale-105 border border-white  rounded-lg  h-28 w-auto"
+                className="flex items-center justify-center bg-white/80 hover:bg-white/100 hover:scale-105 border border-white  rounded-lg  h-28 w-auto"
               >
                 <div>
                   <Image

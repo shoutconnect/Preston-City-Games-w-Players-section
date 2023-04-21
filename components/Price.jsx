@@ -10,11 +10,11 @@ import Image from "next/image";
 export default function Price() {
   return (
     <div className="" id="register">
-      <div className="px-6 mx-auto max-w-7xl lg:px-8">
-        <div className="grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-6 max-sm:gap-8">
+      <div className="px-6 mx-auto max-w-7xl lg:px-8 flex flex-col gap-12">
+        <div className="grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-6 max-sm:gap-8 ">
           <div
             id="Football"
-            className="text-center hover:scale-105 max-sm:hover:scale-100"
+            className="text-center hover:scale-105 max-sm:hover:scale-100 "
           >
             <p className="font-title text-4xl tracking-wide text-neutral-50 mb-2">
               Football
@@ -370,13 +370,13 @@ export default function Price() {
                   <p className="uppercase text-xs font-bold text-sky-400">
                     Date
                   </p>
-                  <p>30th June 2023</p>
+                  <p>TBC</p>
                 </div>
                 <div className="py-4 border-b-2 border-gray-200/80">
                   <p className="uppercase text-xs font-bold text-sky-400">
                     Venue
                   </p>
-                  <p>UCLan Sports Arena</p>
+                  <p>Ashton & Lea Golf Club</p>
                 </div>
                 <div className="py-4 border-b-2 border-gray-200/80">
                   <p className="uppercase text-xs font-bold text-sky-400">

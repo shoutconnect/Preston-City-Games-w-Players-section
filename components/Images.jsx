@@ -11,7 +11,7 @@ export default function Images() {
     <div className="py-24 max-sm:py-16">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="flex max-lg:flex-col-reverse items-center gap-8 max-lg:gap-14">
-          <div className="w-1/2 max-lg:w-full flex flex-col gap-8 ">
+          <div className="w-1/2 max-lg:w-full flex flex-col gap-8 max-lg:text-center ">
             <h1 className=" max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-white tracking-wide leading-[75px]">
               Unleash your teams for a{" "}
               <span className="text-amber-400">
@@ -23,7 +23,7 @@ export default function Images() {
               businesses and charities, taking part in outdoor activity also
               enhances wellbeing and mental health.
             </p>
-            <span className="font-bold text-amber-100 w-2/3">
+            <span className="font-bold text-amber-100 w-2/3 max-lg:m-auto">
               ⚠️ Each participating business or charity can enter as many teams
               as they wish.
             </span>

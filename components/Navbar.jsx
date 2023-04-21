@@ -8,13 +8,14 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <div className="py-6 max-sm:py-4">
+    <div className="py-6 max-sm:py-4 bg-transparent">
       <div className="px-6 mx-auto max-w-7xl lg:px-8 flex justify-between">
         <Image
           src="/favicon.ico"
           width={35}
           height={35}
           className="hover:scale-110"
+          alt="Preston City Games logo"
         />
         <div className="flex gap-8">
           <a
