@@ -81,10 +81,10 @@ export default function Venue() {
               </svg>
             </div>
             <div className="z-50 flex flex-col gap-2 max-sm:gap-0">
-              <p className="uppercase text-xs font-bold text-neutral-50">
+              <p className="uppercase text-xs font-bold text-amber-100">
                 Venue
               </p>
-              <p className="text-4xl max-md:text-3xl max-sm:text-2xl font-title text-neutral-50 tracking-wide">
+              <p className="text-4xl max-md:text-3xl max-sm:text-2xl font-title text-amber-100 tracking-wide">
                 UCLan Sports Arena
               </p>
             </div>
@@ -153,10 +153,10 @@ export default function Venue() {
               </svg>
             </div>
             <div className="z-50 flex flex-col gap-2 max-sm:gap-0">
-              <p className="uppercase text-xs font-bold text-neutral-50">
+              <p className="uppercase text-xs font-bold text-amber-100">
                 Venue
               </p>
-              <p className="text-4xl max-md:text-3xl max-sm:text-2xl font-title text-neutral-50 tracking-wide">
+              <p className="text-4xl max-md:text-3xl max-sm:text-2xl font-title text-amber-100 tracking-wide">
                 Ashton & Lea Golf Club
               </p>
             </div>
