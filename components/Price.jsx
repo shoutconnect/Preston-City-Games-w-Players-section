@@ -11,6 +11,24 @@ export default function Price() {
   return (
     <div className="" id="register">
       <div className="px-6 mx-auto max-w-7xl lg:px-8 flex flex-col gap-12">
+        <div
+          data-aos="zoom-out"
+          className=" flex flex-col gap-8 max-lg:text-center "
+        >
+          <h1 className=" max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-white tracking-wide leading-[75px]">
+            Register <span className="text-amber-400">your</span>{" "}
+            <span className="text-amber-400">interest</span> now
+          </h1>
+          <p className="text-white text-lg">
+            You can enter as a team or an individual and we'll contact you to
+            confirm your booking.{" "}
+            <span className="font-bold text-amber-100 ">
+              Don't worry if you don't have a full team for your chosen sport, a
+              member of the team will contact you and add you to an existing
+              team.
+            </span>
+          </p>
+        </div>
         <div className="grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-6 max-sm:gap-8 ">
           <div
             data-aos="fade-down"
@@ -84,15 +102,19 @@ export default function Price() {
                 </div>
                 <div className="py-4 border-b-2 border-gray-200/80">
                   <p className="uppercase text-xs font-bold text-green-500">
-                    Sport Date Venue Number of players required in each team
+                    Team Requirements
                   </p>
-                  <p>TBC</p>
+                  <p>
+                    Min. 5 Players, Max. 7 Players and at least 2 Female players
+                  </p>
                 </div>
                 <div className="py-4 mb-6">
                   <p className="uppercase text-xs font-bold text-green-500">
                     Price to enter
                   </p>
-                  <p>TBC</p>
+                  <p>
+                    Football Team (7 players) £100 or individual £15 per person
+                  </p>
                 </div>
               </div>
             </div>
@@ -184,15 +206,19 @@ export default function Price() {
                 </div>
                 <div className="py-4 border-b-2 border-gray-200/80">
                   <p className="uppercase text-xs font-bold text-orange-400">
-                    Sport Date Venue Number of players required in each team
+                    Team Requirements
                   </p>
-                  <p>TBC</p>
+                  <p>
+                    Min. 7 Players, Max. 9 Players and at least 2 Male players
+                  </p>
                 </div>
                 <div className="py-4 mb-6">
                   <p className="uppercase text-xs font-bold text-orange-400">
                     Price to enter
                   </p>
-                  <p>TBC</p>
+                  <p>
+                    Netball Team (9 players) £130 or individual £15 per person
+                  </p>
                 </div>
               </div>
             </div>
@@ -284,15 +310,17 @@ export default function Price() {
                 </div>
                 <div className="py-4 border-b-2 border-gray-200/80">
                   <p className="uppercase text-xs font-bold text-purple-400">
-                    Sport Date Venue Number of players required in each team
+                    Team Requirements
                   </p>
-                  <p>TBC</p>
+                  <p>Min, 9 Players, Max. 11 Players</p>
                 </div>
                 <div className="py-4 mb-6">
                   <p className="uppercase text-xs font-bold text-purple-400">
                     Price to enter
                   </p>
-                  <p>TBC</p>
+                  <p>
+                    Rounders Team (11 players) £150 or individual £15 per person
+                  </p>
                 </div>
               </div>
             </div>
@@ -384,15 +412,17 @@ export default function Price() {
                 </div>
                 <div className="py-4 border-b-2 border-gray-200/80">
                   <p className="uppercase text-xs font-bold text-sky-400">
-                    Sport Date Venue Number of players required in each team
+                    Team Requirements
                   </p>
-                  <p>TBC</p>
+                  <p>Teams of 4</p>
                 </div>
                 <div className="py-4 mb-6">
                   <p className="uppercase text-xs font-bold text-sky-400">
                     Price to enter
                   </p>
-                  <p>TBC</p>
+                  <p>
+                    Golf Team (4 players) £180 or Individual or £45 per person
+                  </p>
                 </div>
               </div>
             </div>
@@ -408,7 +438,12 @@ export default function Price() {
             </div>
           </div>
         </div>
-        <p className="text-neutral-50/70 italic text-center text-sm mt-4">
+        <p className="font-bold text-neutral-50 text-lg text-center">
+          Football/Netball/Rounders prices include a Preston City Games T-Shirt
+          for each participant.
+          <br /> Golf prices include Tea/Coffee and light breakfast.
+        </p>
+        <p className="text-neutral-50/70 italic text-center text-sm -mt-4">
           For any businesses or charities keen to participate, early
           registration is recommended as spaces are limited.
         </p>
