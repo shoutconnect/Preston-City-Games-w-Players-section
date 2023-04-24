@@ -105,7 +105,7 @@ export default function Price() {
                     Team Requirements
                   </p>
                   <p>
-                    Min. 5 Players, Max. 7 Players and at least 2 Female players
+                    Min. 5 players, Max. 7 players and at least 2 female players
                   </p>
                 </div>
                 <div className="py-4 mb-6">
@@ -209,7 +209,7 @@ export default function Price() {
                     Team Requirements
                   </p>
                   <p>
-                    Min. 7 Players, Max. 9 Players and at least 2 Male players
+                    Min. 7 players, Max. 9 players and at least 2 male players
                   </p>
                 </div>
                 <div className="py-4 mb-6">
@@ -312,7 +312,7 @@ export default function Price() {
                   <p className="uppercase text-xs font-bold text-purple-400">
                     Team Requirements
                   </p>
-                  <p>Min, 9 Players, Max. 11 Players</p>
+                  <p>Min, 9 players, Max. 11 players</p>
                 </div>
                 <div className="py-4 mb-6">
                   <p className="uppercase text-xs font-bold text-purple-400">
@@ -402,7 +402,7 @@ export default function Price() {
                   <p className="uppercase text-xs font-bold text-sky-400">
                     Date
                   </p>
-                  <p>TBC</p>
+                  <p>7th July 2023</p>
                 </div>
                 <div className="py-4 border-b-2 border-gray-200/80">
                   <p className="uppercase text-xs font-bold text-sky-400">
@@ -438,12 +438,12 @@ export default function Price() {
             </div>
           </div>
         </div>
-        <p className="font-bold text-neutral-50 text-lg text-center">
-          Football/Netball/Rounders prices include a Preston City Games T-Shirt
-          for each participant.
-          <br /> Golf prices include Tea/Coffee and light breakfast.
+        <p className="font-bold text-neutral-50 text-lg text-center -mt-4">
+          Football/Netball/Rounders: Prices include a Preston City Games t-shirt
+          for each participant. <br />
+          Golf: Prices include tea/coffee and light breakfast.
         </p>
-        <p className="text-neutral-50/70 italic text-center text-sm -mt-4">
+        <p className="text-neutral-50/70 italic text-center text-lg  -mt-4">
           For any businesses or charities keen to participate, early
           registration is recommended as spaces are limited.
         </p>

@@ -79,16 +79,21 @@ export default function About() {
               <br />
               Preston City Games is a fun, one day sporting festival that pits
               teams of businesses and charities against each other in a
-              tournament of rounders, football, netball and golf. Originally
-              launched as the UK Corporate Games in 2012, the tournament became
-              known as the City Games.
+              tournament of rounders, football, netball and golf.{" "}
+              <span className="font-bold">
+                <br />
+                <br />
+                Originally launched as the UK Corporate Games in 2012, Preston
+                City Games is a great opportunity for businesses and charities
+                to take part in a fun, but truly competitive, sporting event.
+              </span>
             </p>
           </div>
         </div>
-        <p className="text-xl font-bold text-amber-100 text-center mt-10">
+        {/* <p className="text-xl font-bold text-amber-100 text-center mt-10">
           The event is a great opportunity for businesses and charities to take
           part in a fun, but truly competitive, sporting event.
-        </p>
+        </p> */}
       </div>
     </div>
   );

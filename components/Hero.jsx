@@ -31,6 +31,10 @@ export default function Hero() {
               Entries are now open to compete in Preston's one day sport
               tournament, Preston City Games.
             </p>
+            <p className="font-bold text-lg text-amber-200  w-3/4">
+              Friday 30th June 2023 | UCLan Sports Arena <br />
+              Friday 7th July 2023 | Ashton & Lea Golf Club
+            </p>
             <div className="flex mt-6 ">
               <a
                 href="#register"
