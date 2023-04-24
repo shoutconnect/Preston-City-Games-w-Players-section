@@ -29,16 +29,16 @@ export default function Price() {
             </span>
           </p>
         </div>
-        <div className="grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-6 max-sm:gap-8 ">
+        <div className=" grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-6 max-sm:gap-8 ">
           <div
             data-aos="fade-down"
             id="Football"
-            className="text-center hover:scale-105 max-sm:hover:scale-100 "
+            className="  text-center hover:scale-105 max-sm:hover:scale-100 "
           >
             <p className="font-title text-4xl tracking-wide text-neutral-50 mb-2">
               Football
             </p>
-            <div className="flex flex-col items-center bg-neutral-50 rounded-lg overflow-hidden">
+            <div className="flex flex-auto flex-col items-center bg-neutral-50 rounded-lg overflow-hidden">
               <div className="flex flex-col items-center justify-center w-full p-4 text-white bg-green-500">
                 <Image
                   src="/imgs/Football SVG.svg"
@@ -88,7 +88,7 @@ export default function Price() {
               </div>
 
               <div className="px-4 text-gray-600 text-center">
-                <div className="border-b-2 border-gray-200/80">
+                <div className="pb-4 border-b-2 border-gray-200/80">
                   <p className="uppercase text-xs font-bold text-green-500">
                     Date
                   </p>
@@ -132,12 +132,12 @@ export default function Price() {
           <div
             data-aos="fade-up"
             id="Netball"
-            className="text-center hover:scale-105 max-sm:hover:scale-100"
+            className="  text-center hover:scale-105 max-sm:hover:scale-100"
           >
             <p className="font-title text-4xl tracking-wide text-neutral-50 mb-2">
               Netball
             </p>
-            <div className="flex flex-col items-center bg-neutral-50 rounded-lg overflow-hidden">
+            <div className="flex flex-auto flex-col items-center bg-neutral-50 rounded-lg overflow-hidden">
               <div className="flex flex-col items-center justify-center w-full p-4 text-white bg-[rgb(251,146,60)]">
                 <Image
                   src="/imgs/Netball SVG.svg"
@@ -192,7 +192,7 @@ export default function Price() {
               </div>
 
               <div className="px-4 text-gray-600 text-center">
-                <div className="border-b-2 border-gray-200/80">
+                <div className="pb-4 border-b-2 border-gray-200/80">
                   <p className="uppercase text-xs font-bold text-orange-400">
                     Date
                   </p>
@@ -236,12 +236,12 @@ export default function Price() {
           <div
             data-aos="fade-down"
             id="Rounders"
-            className="text-center hover:scale-105 max-sm:hover:scale-100"
+            className="  text-center hover:scale-105 max-sm:hover:scale-100"
           >
             <p className="font-title text-4xl tracking-wide text-neutral-50 mb-2">
               Rounders
             </p>
-            <div className="flex flex-col items-center bg-neutral-50 rounded-lg overflow-hidden">
+            <div className="flex flex-auto flex-col items-center bg-neutral-50 rounded-lg overflow-hidden">
               <div className="flex flex-col items-center justify-center w-full p-4 text-white bg-[rgb(192,132,252)]">
                 <Image
                   src="/imgs/Rounders SVG.svg"
@@ -296,7 +296,7 @@ export default function Price() {
               </div>
 
               <div className="px-4 text-gray-600 text-center">
-                <div className="border-b-2 border-gray-200/80">
+                <div className="pb-4 border-b-2 border-gray-200/80">
                   <p className="uppercase text-xs font-bold text-purple-400">
                     Date
                   </p>
@@ -312,7 +312,7 @@ export default function Price() {
                   <p className="uppercase text-xs font-bold text-purple-400">
                     Team Requirements
                   </p>
-                  <p>Min, 9 players, Max. 11 players</p>
+                  <p className="mb-6">Min, 9 players, Max. 11 players</p>
                 </div>
                 <div className="py-4 mb-6">
                   <p className="uppercase text-xs font-bold text-purple-400">
@@ -338,12 +338,12 @@ export default function Price() {
           <div
             data-aos="fade-up"
             id="Golf"
-            className="text-center hover:scale-105 max-sm:hover:scale-100"
+            className="  text-center hover:scale-105 max-sm:hover:scale-100"
           >
             <p className="font-title text-4xl tracking-wide text-neutral-50 mb-2">
               Golf
             </p>
-            <div className="flex flex-col items-center bg-neutral-50 rounded-lg overflow-hidden">
+            <div className=" flex flex-auto flex-col items-center bg-neutral-50 rounded-lg overflow-hidden">
               <div className="flex flex-col items-center justify-center w-full p-4 text-white bg-[rgb(125,211,252)]">
                 <Image
                   src="/imgs/Golf SVG.svg"
@@ -398,7 +398,7 @@ export default function Price() {
               </div>
 
               <div className="px-4 text-gray-600 text-center">
-                <div className="border-b-2 border-gray-200/80">
+                <div className="pb-4 border-b-2 border-gray-200/80">
                   <p className="uppercase text-xs font-bold text-sky-400">
                     Date
                   </p>
@@ -414,7 +414,7 @@ export default function Price() {
                   <p className="uppercase text-xs font-bold text-sky-400">
                     Team Requirements
                   </p>
-                  <p>Teams of 4</p>
+                  <p className="mb-6">Teams of 4</p>
                 </div>
                 <div className="py-4 mb-6">
                   <p className="uppercase text-xs font-bold text-sky-400">
