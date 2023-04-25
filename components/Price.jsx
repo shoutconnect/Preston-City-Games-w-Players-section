@@ -120,7 +120,7 @@ export default function Price() {
             </div>
             <div className="flex items-center justify-center -mt-5">
               <a
-                href="/"
+                href="https://www.cognitoforms.com/ShoutConnectLimited/PrestonCityGamesRegistrationForm"
                 target="_blank"
                 className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-green-500 hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300"
               >
@@ -224,7 +224,7 @@ export default function Price() {
             </div>
             <div className="flex items-center justify-center -mt-5">
               <a
-                href="/"
+                href="https://www.cognitoforms.com/ShoutConnectLimited/PrestonCityGamesRegistrationForm"
                 target="_blank"
                 className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-orange-400 hover:bg-gradient-to-r hover:from-orange-400 hover:to-orange-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-orange-300 transition-all ease-out duration-300"
               >
@@ -326,7 +326,7 @@ export default function Price() {
             </div>
             <div className="flex items-center justify-center -mt-5">
               <a
-                href="/"
+                href="https://www.cognitoforms.com/ShoutConnectLimited/PrestonCityGamesRegistrationForm"
                 target="_blank"
                 className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-purple-400 hover:bg-gradient-to-r hover:from-purple-400 hover:to-purple-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-purple-300 transition-all ease-out duration-300"
               >
@@ -428,7 +428,7 @@ export default function Price() {
             </div>
             <div className="flex items-center justify-center -mt-5">
               <a
-                href="/"
+                href="https://www.cognitoforms.com/ShoutConnectLimited/PrestonCityGamesRegistrationForm"
                 target="_blank"
                 className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-sky-300 hover:bg-gradient-to-r hover:from-sky-300 hover:to-sky-200 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-sky-300 transition-all ease-out duration-300"
               >
