@@ -30,7 +30,6 @@ export default function Venue() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               alt="Google maps address to UCLAN Sports"
-              cla
             ></iframe>
           </div>
           <div

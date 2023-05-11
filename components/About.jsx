@@ -78,8 +78,8 @@ export default function About() {
             <p className="text-white text-lg">
               <br />
               Preston City Games is a fun, one day sporting festival that pits
-              teams of businesses and charities against each other in a
-              tournament of rounders, football, netball and golf.{" "}
+              teams of businesses and charities against each other in
+              tournaments of rounders, football, netball and golf.{" "}
               <span className="font-bold">
                 <br />
                 <br />
