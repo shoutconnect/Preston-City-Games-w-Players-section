@@ -27,6 +27,9 @@ export default function Price() {
               member of the team will contact you and add you to an existing
               team.
             </span>
+            <br />
+            <br />
+            Registrations close 23rd of June.
           </p>
         </div>
         <div className=" grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-6 max-sm:gap-8 ">
