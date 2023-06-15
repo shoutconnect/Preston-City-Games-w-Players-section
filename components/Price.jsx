@@ -331,7 +331,7 @@ export default function Price() {
               <a
                 href="https://www.cognitoforms.com/ShoutConnectLimited/PrestonCityGamesRegistrationForm"
                 target="_blank"
-                className="cursor-default relative rounded py-2 px-10 mb-6 overflow-hidden group bg-gray-400 hover:bg-gradient-to-r hover:from-gray-400 hover:to-gray-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-gray-300 transition-all ease-out duration-300"
+                className="pointer-events-none cursor-default relative rounded py-2 px-10 mb-6 overflow-hidden group bg-gray-400 hover:bg-gradient-to-r hover:from-gray-400 hover:to-gray-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-gray-300 transition-all ease-out duration-300"
               >
                 <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
                 <span className="relative">Sold out</span>
