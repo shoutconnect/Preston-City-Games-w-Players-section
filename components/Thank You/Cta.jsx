@@ -69,12 +69,10 @@ export default function ThankYouCta() {
               </h1>
 
               <p className="text-slate-900 text-lg font-normal w-[80%] max-lg:w-[90%]">
-                <span className="font-semibold">
-                  Will you be participating in next year’s Preston City Games?{" "}
-                </span>
-                For now, all you need to do is register your interest. Just
-                click on the button below and fill out the form. As soon as we
-                have more information about the event, we will contact you.
+                To participate in next year’s Preston City Games, all you need
+                to do for now is register your interest. Just click on the
+                button below and fill out the form. As soon as we have more
+                information about the event, we will contact you.
               </p>
               <a
                 href="#register"
