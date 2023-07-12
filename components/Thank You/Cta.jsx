@@ -49,14 +49,14 @@ export default function ThankYouCta() {
         </svg>
       </div>
       <div className="py-24 max-sm:py-16">
-        <div className="px-6 mx-auto max-w-7xl lg:px-8 max-lg:my-16">
+        <div className="px-6 mx-auto max-w-7xl lg:px-8 max-lg:my-16 my-10">
           <div className="flex max-lg:flex-col-reverse items-center gap-8 max-lg:gap-14">
             <div
               data-aos="zoom-out"
               className="w-1/2 max-lg:w-full flex flex-col gap-8 max-lg:text-center items-start max-lg:items-center"
             >
-              <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-slate-900/70 font-bold ring-1 ring-slate-900/20 hover:ring-slate-900/40">
-                The 2024 date will be announced soon!{" "}
+              <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-slate-500/80 font-semibold ring-1 ring-slate-900/20 hover:ring-slate-900/40">
+                Don’t miss out. The 2024 date will be announced soon!{" "}
               </div>
               <h1 className=" max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-slate-900 tracking-wide leading-[75px]">
                 Unleash your teams for a{" "}
@@ -65,10 +65,13 @@ export default function ThankYouCta() {
                 </span>
               </h1>
               <p className="text-slate-900 text-lg font-normal w-[80%] max-lg:w-[90%]">
-                Do you want to participate in the next Preston City Games and
-                have an amazing day? Just click on the button below and fill out
-                the form, as soon as we have more information about the event
-                date, we will contact you.
+                <span className="font-semibold">
+                  Get your kit on! Will you be participating in next year’s
+                  Preston City Games?{" "}
+                </span>
+                For now, all you need to do is register your interest. Just
+                click on the button below and fill out the form. As soon as we
+                have more information about the event, we will contact you.
               </p>
               <a
                 href="#register"

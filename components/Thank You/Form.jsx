@@ -49,7 +49,10 @@ export default function ThankYouForm() {
       </div>
       <div className="py-40 max-sm:py-24 px-6 mx-auto max-w-7xl lg:px-8 flex max-lg:flex-col items-center justify-center gap-20">
         <div className="relative w-1/2 max-xl:w-1/3 max-lg:w-full flex flex-col max-lg:flex-col-reverse">
-          <h1 className="text-6xl max-xl:text-5xl font-title text-slate-900 tracking-wide mb-20 max-lg:mb-0 max-lg:mt-20 text-center">
+          <h1
+            className="text-6xl max-xl:text-5xl font-title text-slate-900 tracking-wide mb-20 max-lg:mb-0 max-lg:mt-20 text-center"
+            data-aos="fade-down"
+          >
             Register your interest for{" "}
             <span className="text-amber-400">Preston City Games 2024</span>
           </h1>
@@ -137,7 +140,7 @@ export default function ThankYouForm() {
             <div className="absolute inset-0 m-auto h-[400px] w-[400px] bg-teal-300/30 rounded-full blur-3xl animate-pulse" />
           </div>
         </div>
-        <div className="w-1/2 max-xl:w-2/3 max-lg:w-full">
+        <div className="w-1/2 max-xl:w-2/3 max-lg:w-full" data-aos="fade-up">
           {" "}
           <iframe
             src="https://www.cognitoforms.com/f/42nSYhyX7UC-l4nHKMTwuQ/29"

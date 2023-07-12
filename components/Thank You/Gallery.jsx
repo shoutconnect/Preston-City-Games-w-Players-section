@@ -59,7 +59,10 @@ export default function ThankYouGallery() {
           </g>
         </svg>
       </div>
-      <div className="py-40 max-sm:py-24 px-6 mx-auto max-w-7xl lg:px-8">
+      <div
+        className="py-40 max-sm:py-24 px-6 mx-auto max-w-7xl lg:px-8"
+        data-aos="fade-up"
+      >
         <Swiper
           effect={"coverflow"}
           grabCursor={true}

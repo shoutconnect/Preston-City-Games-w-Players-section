@@ -67,14 +67,19 @@ export default function ThankYouHero() {
             </div>
           </div>
         </div>
-        <h1 className="text-7xl max-xl:text-6xl max-md:text-5xl font-title tracking-wide text-white text-center mt-10">
-          What an <span className="text-amber-400">incredible event </span>we
-          had!
+        <h1
+          data-aos="zoom-out"
+          className="text-7xl max-xl:text-6xl max-md:text-5xl font-title tracking-wide text-white text-center mt-10"
+        >
+          What an <span className="text-amber-400">incredible event </span>!
         </h1>
-        <p className="font-bold text-lg text-white text-center mt-5 w-[80%]">
-          We want to extend a big thank you to all the participants who made the
-          event truly amazing. Your enthusiasm and outstanding performance on
-          the event days left us in awe.
+        <p
+          data-aos="zoom-out"
+          className="font-bold text-lg text-white text-center mt-5 w-[80%]"
+        >
+          We want to extend a big thank you to all the participants who made
+          Preston City Games 2023 such an amazing event. Your enthusiasm and
+          outstanding performances were truly inspirational.
         </p>
       </div>
     </div>

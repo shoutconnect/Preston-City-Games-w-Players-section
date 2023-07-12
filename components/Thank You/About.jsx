@@ -12,7 +12,7 @@ export default function ThankYouAbout() {
     <div className="py-24 max-sm:py-16" id="about">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="flex max-lg:flex-col items-center gap-8">
-          <div className="w-1/2 max-lg:w-full">
+          <div className="w-1/2 max-lg:w-full" data-aos="fade-right">
             <div className="grid grid-cols-2 gap-4">
               <div className="flex flex-col items-end justify-end text-white text-4xl max-sm:text-3xl font-title tracking-wide text-right">
                 <p>Organised by the</p>
@@ -67,7 +67,10 @@ export default function ThankYouAbout() {
               </a>
             </div>
           </div>
-          <div className="w-1/2 max-lg:w-full max-lg:text-center">
+          <div
+            className="w-1/2 max-lg:w-full max-lg:text-center"
+            data-aos="fade-left"
+          >
             <p className="text-white text-3xl font-title tracking-wide max-lg:mt-10">
               About <span className="text-amber-400">Preston City Games</span>
             </p>
@@ -86,18 +89,21 @@ export default function ThankYouAbout() {
             </p>
           </div>
         </div>
-        <div className="text-white text-lg mt-14 flex flex-col items-center gap-14 max-lg:text-center">
+        <div
+          className="text-white text-lg mt-14 flex flex-col items-center gap-14 max-lg:text-center"
+          data-aos="fade-up"
+        >
           <p className="text-2xl font-bold text-amber-400">
             Preston City Games 2023 was amazing, we can't wait to meet you all
             again in 2024!
           </p>
           <p className="w-full">
             Preston City Games brought together businesses and charities for a
-            day of friendly competition, from rounders and football to netball
-            and golf, teams battled it out with sheer determination and a
-            competitive spirit.{" "}
+            day of friendly competition. In rounders, football, netball and
+            golf, teams battled it out with sheer determination and competitive
+            spirit.{" "}
             <span className="font-bold">
-              You can see some of how amazing our event was in the images below:
+              Take a look at our gallery below to see how fantastic the day was.
             </span>
           </p>
         </div>
