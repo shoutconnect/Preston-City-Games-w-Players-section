@@ -59,15 +59,18 @@ export default function ThankYouCta() {
                 Don’t miss out. The 2024 date will be announced soon!{" "}
               </div>
               <h1 className=" max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-slate-900 tracking-wide leading-[75px]">
+                Get your kit on!
+              </h1>
+              <h1 className="text-4xl font-title text-slate-900 tracking-wide">
                 Unleash your teams for a{" "}
                 <span className="text-amber-400">
                   day of outdoor competitive sport!
                 </span>
               </h1>
+
               <p className="text-slate-900 text-lg font-normal w-[80%] max-lg:w-[90%]">
                 <span className="font-semibold">
-                  Get your kit on! Will you be participating in next year’s
-                  Preston City Games?{" "}
+                  Will you be participating in next year’s Preston City Games?{" "}
                 </span>
                 For now, all you need to do is register your interest. Just
                 click on the button below and fill out the form. As soon as we
