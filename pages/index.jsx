@@ -31,17 +31,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="overflow-x-hidden ">
-        <Hero />
+        {/* <Hero />
         <About />
         <Images />
         <Price />
-        <Venue />
-        {/* <ThankYouHero />
+        <Venue /> */}
+        <ThankYouHero />
         <ThankYouCta />
         <ThankYouAbout />
         <ThankYouGallery />
         <ThankYouSocialMedia />
-        <ThankYouForm /> */}
+        <ThankYouForm />
       </main>
     </>
   );
