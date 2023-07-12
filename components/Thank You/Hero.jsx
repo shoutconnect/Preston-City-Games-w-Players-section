@@ -1,56 +1,29 @@
 // Design and images
+// Libraries
+// Components
+// Outside data
+
+import Image from "next/image";
 import {
   RiFacebookCircleFill,
   RiInstagramFill,
   RiLinkedinFill,
   RiTwitterFill,
 } from "react-icons/ri";
-// Libraries
-// Components
-// Outside data
-
-import Image from "next/image";
 
 /////////////////////////////
 
-export default function Hero() {
+export default function ThankYouHero() {
   return (
-    <div className="py-24 max-sm:py-16 ">
-      <div className="px-6 mx-auto max-w-7xl lg:px-8">
-        <div className="flex max-lg:flex-col-reverse max-lg:gap-8 max-lg:items-center items-start">
+    <div className="relative py-24 max-sm:py-16 -mt-10">
+      <div className="px-6 mx-auto max-w-7xl lg:px-8 flex flex-col items-center justify-center">
+        <div className="">
           <div
             data-aos="zoom-out"
-            className="w-1/2 max-lg:w-full flex flex-col items-start max-lg:items-center justify-center gap-6 max-lg:text-center"
-          >
-            <h1 className="z-[60] text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-white tracking-wide leading-[75px]">
-              Are you a <span className="text-amber-400">business</span> or{" "}
-              <span className="text-amber-400 ">charity team</span> with a
-              competitive edge?
-            </h1>
-            <p className="text-lg text-white w-3/4">
-              Entries are now open to compete in Preston's one day sport
-              tournament, Preston City Games.
-            </p>
-            <p className="font-bold text-lg text-amber-200  w-3/4">
-              Friday 30th June 2023 | UCLan Sports Arena <br />
-              Friday 7th July 2023 | Ashton & Lea Golf Club
-            </p>
-            <div className="flex mt-6 ">
-              <a
-                href="#register"
-                className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-amber-400 hover:bg-gradient-to-r hover:from-amber-400 hover:to-amber-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-amber-400 transition-all ease-out duration-300"
-              >
-                <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                <span className="relative">Register now</span>
-              </a>
-            </div>
-          </div>
-          <div
-            data-aos="zoom-out"
-            className="relative w-1/2 max-lg:w-full flex items-center justify-center"
+            className="relative w-full max-lg:w-full flex items-center justify-center"
           >
             <div className="relative">
-              <div className="relative z-40 h-[450px] w-[450px] max-lg:h-[300px] max-lg:w-[300px]">
+              <div className="relative z-40 h-[450px] w-[450px] max-lg:h-[300px] max-lg:w-[300px] flex">
                 <a
                   href="https://www.linkedin.com/company/prestoncitygames"
                   target="_blank"
@@ -94,6 +67,15 @@ export default function Hero() {
             </div>
           </div>
         </div>
+        <h1 className="text-7xl max-xl:text-6xl max-md:text-5xl font-title tracking-wide text-white text-center mt-10">
+          What an <span className="text-amber-400">incredible event </span>we
+          had!
+        </h1>
+        <p className="font-bold text-lg text-white text-center mt-5 w-[80%]">
+          We want to extend a big thank you to all the participants who made the
+          event truly amazing. Your enthusiasm and outstanding performance on
+          the event days left us in awe.
+        </p>
       </div>
     </div>
   );

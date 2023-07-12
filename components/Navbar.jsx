@@ -30,12 +30,12 @@ export default function Navbar() {
           >
             Register
           </a>
-          <a
+          {/* <a
             href="#venue"
             className="text-neutral-50 hover:text-amber-200 font-bold"
           >
             Venues
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

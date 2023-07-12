@@ -18,7 +18,7 @@ import ThankYouSocialMedia from "@/components/Thank You/SocialMedia";
 
 /////////////////////////////
 
-export default function Home() {
+export default function Newpage() {
   return (
     <>
       <Head>
@@ -31,17 +31,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="overflow-x-hidden ">
-        <Hero />
+        {/* <Hero />
         <About />
         <Images />
         <Price />
-        <Venue />
-        {/* <ThankYouHero />
+        <Venue /> */}
+        <ThankYouHero />
         <ThankYouCta />
         <ThankYouAbout />
         <ThankYouGallery />
         <ThankYouSocialMedia />
-        <ThankYouForm /> */}
+        <ThankYouForm />
       </main>
     </>
   );
