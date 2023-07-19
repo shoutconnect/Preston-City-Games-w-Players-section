@@ -4,6 +4,7 @@
 // Outside data
 
 import Image from "next/image";
+import Link from "next/link";
 import {
   RiFacebookCircleFill,
   RiInstagramFill,
@@ -72,6 +73,7 @@ export default function ThankYouHero() {
           className="text-7xl max-xl:text-6xl max-md:text-5xl font-title tracking-wide text-white text-center mt-10"
         >
           What an <span className="text-amber-400">incredible event </span>!
+          <br />
         </h1>
         <p
           data-aos="zoom-out"
@@ -79,8 +81,23 @@ export default function ThankYouHero() {
         >
           We want to extend a big thank you to all the participants who made
           Preston City Games 2023 such an amazing event. Your enthusiasm and
-          outstanding performances were truly inspirational.
+          outstanding performances were truly inspirational. <br />
+          We have good news:
         </p>
+
+        <a href="#register">
+          <h1
+            data-aos="zoom-out"
+            className="text-3xl max-xl:text-6xl max-md:text-5xl font-title tracking-wide text-white text-center mt-10"
+          >
+            Registrations for
+            <br />
+            <span className="text-amber-400"> Preston City Games 2024 </span>
+            <br />
+            are now open.
+            <br />
+          </h1>
+        </a>
       </div>
     </div>
   );

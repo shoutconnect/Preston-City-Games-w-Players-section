@@ -14,6 +14,7 @@ import ThankYouForm from "@/components/Thank You/Form";
 import ThankYouAbout from "@/components/Thank You/About";
 import ThankYouCta from "@/components/Thank You/Cta";
 import ThankYouSocialMedia from "@/components/Thank You/SocialMedia";
+import NewPrice from "@/components/NewPrice";
 // Outside data
 
 /////////////////////////////
@@ -41,7 +42,8 @@ export default function Home() {
         <ThankYouAbout />
         <ThankYouGallery />
         <ThankYouSocialMedia />
-        <ThankYouForm />
+        {/* <ThankYouForm /> */}
+        <NewPrice />
       </main>
     </>
   );
