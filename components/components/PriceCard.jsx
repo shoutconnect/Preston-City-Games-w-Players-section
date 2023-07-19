@@ -45,7 +45,7 @@ export default function PriceCard({
         {title}
       </h1>
       <div
-        className={`border-[1px] border-gray-200 flex flex-auto flex-col items-center bg-neutral-50 rounded-lg overflow-hidden
+        className={`border-[1px] border-slate-200 flex flex-auto flex-col items-center bg-neutral-50 rounded-lg overflow-hidden
       hover:shadow-2xl ${
         green
           ? "hover:shadow-[rgb(34,197,94)]/20"
@@ -174,8 +174,8 @@ export default function PriceCard({
             </g>
           </svg>
         </div>
-        <div className="px-4 text-gray-600 text-center">
-          <div className="pb-4 border-b-2 border-gray-200/80">
+        <div className="px-4 text-slate-600 text-center">
+          <div className="pb-4 border-b-2 border-slate-200/80">
             <p
               className={`uppercase text-xs font-bold ${
                 green
@@ -195,7 +195,7 @@ export default function PriceCard({
             </p>
             <p>{date}</p>
           </div>
-          <div className="py-4 border-b-2 border-gray-200/80">
+          <div className="py-4 border-b-2 border-slate-200/80">
             <p
               className={`uppercase text-xs font-bold ${
                 green
@@ -215,7 +215,7 @@ export default function PriceCard({
             </p>
             <p>{venue}</p>
           </div>
-          <div className="py-4 border-b-2 border-gray-200/80">
+          <div className="py-4 border-b-2 border-slate-200/80">
             <p
               className={`uppercase text-xs font-bold ${
                 green

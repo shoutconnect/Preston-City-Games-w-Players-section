@@ -87,7 +87,7 @@ export default function Venue() {
                 UCLan Sports Arena
               </p>
             </div>
-            <p className="z-50 text-lg text-gray-600 font-medium">
+            <p className="z-50 text-lg text-slate-600 font-medium">
               Tom Benson Way,
               <br /> Preston <br /> PR2 1SG
             </p>
@@ -159,7 +159,7 @@ export default function Venue() {
                 Ashton & Lea Golf Club
               </p>
             </div>
-            <p className="z-50 text-lg text-gray-600 font-medium">
+            <p className="z-50 text-lg text-slate-600 font-medium">
               Tudor Avenue,
               <br /> Lea, Preston <br /> PR4 0XA
             </p>

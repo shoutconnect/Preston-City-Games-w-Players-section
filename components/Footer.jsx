@@ -45,7 +45,7 @@ export default function Footer() {
               key={item.name}
               href={item.href}
               target="_blank"
-              className="text-gray-400 hover:text-gray-500"
+              className="text-slate-400 hover:text-slate-500"
             >
               <span className="sr-only">{item.name}</span>
               {item.icon}
@@ -53,7 +53,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-xs leading-5 text-gray-400">
+          <p className="text-center text-xs leading-5 text-slate-400">
             &copy; {year} Shout Connect, ltd. All rights reserved.
           </p>
         </div>
