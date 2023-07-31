@@ -11,6 +11,7 @@ module.exports = {
   theme: {
     fontFamily: {
       title: ["FormulaCondensed", "sans-serif"],
+      sans: ["Heebo", "sans-serif"],
     },
     extend: {},
   },
