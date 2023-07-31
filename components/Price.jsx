@@ -480,7 +480,7 @@ export default function Price() {
           </div>
         </div> */}
       </div>
-      <p className="font-bold text-neutral-50 text-lg text-center -mt-4">
+      {/* <p className="font-bold text-neutral-50 text-lg text-center -mt-4">
         Football/Netball/Rounders: Prices include a Preston City Games t-shirt
         for each participant. <br />
         Golf: Prices include tea/coffee and light breakfast.
@@ -488,7 +488,7 @@ export default function Price() {
       <p className="text-neutral-50/70 italic text-center text-lg  -mt-4">
         For any businesses or charities keen to participate, early registration
         is recommended as spaces are limited.
-      </p>
+      </p> */}
     </div>
     // </div>
   );
