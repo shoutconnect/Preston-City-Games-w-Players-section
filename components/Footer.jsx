@@ -1,4 +1,5 @@
 // Design and images
+import Link from "next/link";
 import {
   RiFacebookCircleFill,
   RiInstagramFill,
@@ -52,10 +53,33 @@ export default function Footer() {
             </a>
           ))}
         </div>
-        <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-xs leading-5 text-slate-400">
+        <div className="mt-8 md:order-1 md:mt-0 text-xs leading-5 text-slate-400">
+          <p className="mb-2">
             &copy; {year} Shout Connect, ltd. All rights reserved.
           </p>
+          <div className="flex gap-4 font-bold ">
+            <Link
+              href="/terms-and-conditions"
+              target="_blank"
+              className="hover:text-white"
+            >
+              Terms and Conditions
+            </Link>
+            <Link
+              href="/privacy-policy"
+              target="_blank"
+              className="hover:text-white"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              href="/cookie-policy"
+              target="_blank"
+              className="hover:text-white"
+            >
+              Cookie Policy
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
