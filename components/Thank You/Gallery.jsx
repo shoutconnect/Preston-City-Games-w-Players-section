@@ -78,7 +78,7 @@ export default function ThankYouGallery() {
           }}
           pagination={true}
           modules={[EffectCoverflow, Pagination, Autoplay]} // Include Autoplay module
-          autoplay={{ delay: 2000 }} // Set autoplay delay to 2 seconds
+          autoplay={{ delay: 2000, disableOnInteraction: false }} // Set autoplay delay to 2 seconds
           loop={true} // Enable loop
           className="mySwiper"
         >
