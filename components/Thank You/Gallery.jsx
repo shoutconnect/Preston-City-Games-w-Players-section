@@ -6,12 +6,13 @@
 import React, { useRef, useState, useEffect } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 import "./styles.css";
 import { GalleryData } from "@/data/GalleryData";
 import Image from "next/image";
@@ -76,7 +77,9 @@ export default function ThankYouGallery() {
             slideShadows: true,
           }}
           pagination={true}
-          modules={[EffectCoverflow, Pagination]}
+          modules={[EffectCoverflow, Pagination, Autoplay]} // Include Autoplay module
+          autoplay={{ delay: 2000 }} // Set autoplay delay to 2 seconds
+          loop={true} // Enable loop
           className="mySwiper"
         >
           {GalleryData.map((item, i) => {
