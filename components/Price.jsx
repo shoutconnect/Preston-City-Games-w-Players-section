@@ -37,7 +37,7 @@ export default function Price() {
         <PriceCard
           img="/imgs/Football SVG.svg"
           title="Male Football Team"
-          date="28th June 2024"
+          date="21st June 2024"
           venue="UCLan Sports Arena"
           teamsRequirements="Min. 5 players, Max. 8 players"
           price="£100"
@@ -47,7 +47,7 @@ export default function Price() {
         <PriceCard
           img="/imgs/Football SVG.svg"
           title="Female Football Team"
-          date="28th June 2024"
+          date="21st June 2024"
           venue="UCLan Sports Arena"
           teamsRequirements="Min. 5 players, Max. 8 players"
           price="£100"
@@ -57,7 +57,7 @@ export default function Price() {
         <PriceCard
           img="/imgs/Netball SVG.svg"
           title="Netball Team"
-          date="28th June 2024"
+          date="21st June 2024"
           venue="UCLan Sports Arena"
           teamsRequirements="Min. 7 players, Max. 11 players"
           price="£130"
@@ -67,7 +67,7 @@ export default function Price() {
         <PriceCard
           img="/imgs/Rounders SVG.svg"
           title="Rounders Team"
-          date="28th June 2024"
+          date="21st June 2024"
           venue="UCLan Sports Arena"
           teamsRequirements="Min. 9 players, Max. 15 players"
           price="£150"
