@@ -33,7 +33,7 @@ export default function Price() {
             Registrations close 23rd of June.
           </p>
         </div> */}
-      <div className=" grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-6 max-sm:gap-8 ">
+      <div className=" grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-6 max-sm:gap-8 ">
         <PriceCard
           img="/imgs/Football SVG.svg"
           title="Male Football Team"
@@ -73,6 +73,16 @@ export default function Price() {
           price="£150"
           href="https://www.cognitoforms.com/ShoutConnectLimited/PrestonCityGamesRegistrationForm"
           purple
+        />
+        <PriceCard
+          img="/imgs/Golf SVG.svg"
+          title="Golf Team"
+          date="5th July 2024"
+          venue="Ashton and Lea Golf Club"
+          teamsRequirements="Min. 1 players, Max. 4 players"
+          price="£45 per person"
+          href="https://www.cognitoforms.com/ShoutConnectLimited/PrestonCityGamesRegistrationForm"
+          blue
         />
         {/* <div
           data-aos="fade-down"
