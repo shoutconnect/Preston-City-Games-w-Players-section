@@ -56,7 +56,7 @@ export default function ThankYouCta() {
               className="w-1/2 max-lg:w-full flex flex-col gap-8 max-lg:text-center items-start max-lg:items-center"
             >
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-slate-500/80 font-semibold ring-1 ring-slate-900/20 hover:ring-slate-900/40">
-                Don't miss out our next event in 2024!{" "}
+                Don't miss out our next event!{" "}
               </div>
               <h1 className=" max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-slate-900 tracking-wide leading-[75px]">
                 Get your kit on!
