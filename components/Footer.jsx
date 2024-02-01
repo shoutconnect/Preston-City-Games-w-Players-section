@@ -4,7 +4,7 @@ import {
   RiFacebookCircleFill,
   RiInstagramFill,
   RiLinkedinFill,
-  RiTwitterFill,
+  RiTwitterXFill,
 } from "react-icons/ri";
 // Libraries
 // Components
@@ -33,7 +33,7 @@ export default function Footer() {
     {
       name: "Twitter",
       href: "https://twitter.com/pr_citygames",
-      icon: <RiTwitterFill className="h-6 w-6" />,
+      icon: <RiTwitterXFill className="h-6 w-6" />,
     },
   ];
 
