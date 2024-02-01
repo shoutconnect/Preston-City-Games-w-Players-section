@@ -41,7 +41,7 @@ export default function Price() {
           venue="UCLan Sports Arena"
           teamsRequirements="Min. 5 players, Max. 8 players"
           price="£100"
-          href="https://www.cognitoforms.com/ShoutConnectLimited/PrestonCityGamesRegistrationForm"
+          href="https://www.cognitoforms.com/ShoutConnectLimited/_2024PrestonCityGamesRegistrationForm"
           green
         />
         <PriceCard
@@ -51,7 +51,7 @@ export default function Price() {
           venue="UCLan Sports Arena"
           teamsRequirements="Min. 5 players, Max. 8 players"
           price="£100"
-          href="https://www.cognitoforms.com/ShoutConnectLimited/PrestonCityGamesRegistrationForm"
+          href="https://www.cognitoforms.com/ShoutConnectLimited/_2024PrestonCityGamesRegistrationForm"
           pink
         />
         <PriceCard
@@ -61,7 +61,7 @@ export default function Price() {
           venue="UCLan Sports Arena"
           teamsRequirements="Min. 7 players, Max. 11 players"
           price="£130"
-          href="https://www.cognitoforms.com/ShoutConnectLimited/PrestonCityGamesRegistrationForm"
+          href="https://www.cognitoforms.com/ShoutConnectLimited/_2024PrestonCityGamesRegistrationForm"
           orange
         />
         <PriceCard
@@ -71,7 +71,7 @@ export default function Price() {
           venue="UCLan Sports Arena"
           teamsRequirements="Min. 9 players, Max. 15 players"
           price="£150"
-          href="https://www.cognitoforms.com/ShoutConnectLimited/PrestonCityGamesRegistrationForm"
+          href="https://www.cognitoforms.com/ShoutConnectLimited/_2024PrestonCityGamesRegistrationForm"
           purple
         />
         <PriceCard
@@ -81,7 +81,7 @@ export default function Price() {
           venue="Ashton and Lea Golf Club"
           teamsRequirements="Min. 1 players, Max. 4 players"
           price="£45 per person"
-          href="https://www.cognitoforms.com/ShoutConnectLimited/PrestonCityGamesRegistrationForm"
+          href="https://www.cognitoforms.com/ShoutConnectLimited/_2024PrestonCityGamesRegistrationForm"
           blue
         />
         {/* <div
