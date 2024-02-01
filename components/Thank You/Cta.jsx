@@ -56,7 +56,7 @@ export default function ThankYouCta() {
               className="w-1/2 max-lg:w-full flex flex-col gap-8 max-lg:text-center items-start max-lg:items-center"
             >
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-slate-500/80 font-semibold ring-1 ring-slate-900/20 hover:ring-slate-900/40">
-                Don't miss out our next event!{" "}
+                Don’t miss out on our 2024 games!{" "}
               </div>
               <h1 className=" max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-slate-900 tracking-wide leading-[75px]">
                 Get your kit on!
@@ -69,8 +69,8 @@ export default function ThankYouCta() {
               </h1>
 
               <p className="text-slate-500 text-lg font-normal w-[80%] max-lg:w-[90%]">
-                To participate in next year's Preston City Games, just click on
-                the button below, choose the sport, fill out the form and we
+                To participate in this years games, just click on the button
+                below, select your preferred sport, fill out the form and we
                 will contact you.
               </p>
               <a

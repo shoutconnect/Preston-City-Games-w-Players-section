@@ -72,18 +72,16 @@ export default function ThankYouHero() {
           data-aos="zoom-out"
           className="text-7xl max-xl:text-6xl max-md:text-5xl font-title tracking-wide text-white text-center mt-10"
         >
-          What an <span className="text-amber-400">incredible event</span>!
+          Preston City Games is back for 2024!
           <br />
         </h1>
         <p
           data-aos="zoom-out"
           className="font-bold text-lg text-white text-center mt-5 w-[80%]"
         >
-          We want to extend a big thank you to all the participants who made
-          Preston City Games 2023 such an amazing event. Your enthusiasm and
-          outstanding performances were truly inspirational. <br />
-          <br />
-          We have good news:
+          Following the success of the games in 2023, we look forward to
+          welcoming the businesses, charities and social enterprises of Preston
+          to the Preston City Games 2024.
         </p>
 
         <a href="#register">

@@ -57,12 +57,14 @@ export default function NewPrice() {
           <span className="text-amber-400">Preston City Games 2024</span>
         </h1>
         <p className="text-slate-500 text-lg font-normal w-4/5 text-center">
-          To participate in next year's Preston City Games, just choose the
-          sport and fill out the form.
-          <br />
-          <span className="italic">
-            We are only taking team bookings this time, no individuals.
+          <span className="font-semibold">
+            To participate in this year's Preston City Games, just choose the
+            sport and fill out the form.
           </span>
+          <br />
+          We are only accepting bookings from full teams this year through the
+          website, if you can’t get together a full team – don’t worry – e-mail
+          info@shoutconnect.co.uk and we’ll combine you with another team.
         </p>
         <Price />
       </div>
