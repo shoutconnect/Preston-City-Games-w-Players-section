@@ -69,7 +69,7 @@ export default function ThankYouCta() {
               </h1>
 
               <p className="text-slate-500 text-lg font-normal w-[80%] max-lg:w-[90%]">
-                To participate in this years games, just click on the button
+                To participate in this year's games, just click on the button
                 below, select your preferred sport, fill out the form and we
                 will contact you.
               </p>

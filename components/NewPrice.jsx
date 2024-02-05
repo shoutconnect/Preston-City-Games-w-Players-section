@@ -58,12 +58,12 @@ export default function NewPrice() {
         </h1>
         <p className="text-slate-500 text-lg font-normal w-4/5 text-center">
           <span className="font-semibold">
-            To participate in this year's Preston City Games, just choose the
-            sport and fill out the form.
+            To participate in this year's Preston City Games, just pick your
+            preferred sport and fill out the form.
           </span>
           <br />
           We are only accepting bookings from full teams this year through the
-          website, if you can’t get together a full team – don’t worry – e-mail
+          website. If you can’t get together a full team – don’t worry – e-mail
           info@shoutconnect.co.uk and we’ll combine you with another team.
         </p>
         <Price />

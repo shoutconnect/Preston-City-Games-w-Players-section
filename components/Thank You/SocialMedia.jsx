@@ -20,9 +20,8 @@ export default function ThankYouSocialMedia() {
             <span className="text-amber-400"> Social Media</span>
           </h1>
           <p className="text-lg mt-10">
-            Do you want to stay informed with all the news, updates, and
-            announcements about Preston City Games? Follow us today to stay up
-            to date!
+            Don’t miss out on news, updates, and announcements about Preston
+            City Games. Follow us today to stay up to date!
           </p>
         </div>
         <div
