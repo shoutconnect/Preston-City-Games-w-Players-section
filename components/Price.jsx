@@ -149,7 +149,7 @@ export default function Price() {
                   <h1
                     className={`font-title text-[28px] tracking-wide text-[rgb(125,211,252)] mb-2`}
                   >
-                    Programmation
+                    Event Details
                   </h1>
 
                   <p className="mb-10">
