@@ -80,7 +80,7 @@ export default function Price() {
       {modal && (
         <section>
           <div
-            className="fixed z-[888] top-0 left-0 w-[100vw] h-[100vh] flex items-center justify-center bg-[#0f172a]/30 backdrop-blur-md"
+            className="fixed z-[888] top-0 left-0 w-[100vw] h-[100vh] flex items-center justify-center bg-[#0f172a]/40 backdrop-blur-md"
             onClick={() => setModal(false)}
           >
             <section
