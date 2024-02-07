@@ -7,6 +7,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+ 
+  .margin-x {
+    @apply px-4 md:px-6 mx-auto max-w-7xl lg:px-8;
+  }
+  .margin-y {
+    @apply py-24 max-sm:py-16;
+  }
+  .my-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}
+
+
 html {
       scroll-behavior: smooth;
     }
