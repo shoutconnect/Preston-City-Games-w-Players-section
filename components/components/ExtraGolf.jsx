@@ -81,7 +81,7 @@ export default function ExtraGolf({ img, title, href }) {
             </h1>
 
             <p className="mb-10">
-              Shotgun start <br />
+              Shotgun start (2-Person Better Ball) <br />
               <br />
               9.00am - all players arrive at Ashton and Lea Golf Club
               <br />
