@@ -62,7 +62,7 @@ export default function Price() {
             date="5th July 2024"
             venue="Ashton and Lea Golf Club"
             teamsRequirements="Min. 1 players, Max. 4 players"
-            price="£45 per person"
+            price="£60 per person"
             href="https://www.cognitoforms.com/ShoutConnectLimited/_2024PrestonCityGamesRegistrationForm"
             blue
           />
