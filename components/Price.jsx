@@ -156,13 +156,13 @@ export default function Price() {
                     Shotgun start
                     <br />
                     <br />
-                    9.00am - all players arrive at Ashton and Lea Golf Club
+                    9.00am - All players arrive at Ashton and Lea Golf Club
                     <br />
                     <br />
-                    9.30am - players head to their designated tee
+                    9.30am - Players head to their designated tee
                     <br />
                     <br />
-                    10.00am - tee off
+                    10.00am - Tee off
                     <br />
                     <br />
                     3.30pm - 2 Course meal and presentation
