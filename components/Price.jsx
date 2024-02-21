@@ -22,7 +22,7 @@ export default function Price() {
           venue="UCLan Sports Arena"
           teamsRequirements="Min. 5 players, Max. 8 players"
           price="£100"
-          href="https://www.cognitoforms.com/ShoutConnectLimited/_2024PrestonCityGamesRegistrationForm"
+          href="/registration"
           green
         />
         <PriceCard
@@ -32,7 +32,7 @@ export default function Price() {
           venue="UCLan Sports Arena"
           teamsRequirements="Min. 5 players, Max. 8 players"
           price="£100"
-          href="https://www.cognitoforms.com/ShoutConnectLimited/_2024PrestonCityGamesRegistrationForm"
+          href="/registration"
           pink
         />
         <PriceCard
@@ -42,7 +42,7 @@ export default function Price() {
           venue="UCLan Sports Arena"
           teamsRequirements="Min. 7 players, Max. 11 players"
           price="£130"
-          href="https://www.cognitoforms.com/ShoutConnectLimited/_2024PrestonCityGamesRegistrationForm"
+          href="/registration"
           orange
         />
         <PriceCard
@@ -52,7 +52,7 @@ export default function Price() {
           venue="UCLan Sports Arena"
           teamsRequirements="Min. 9 players, Max. 15 players"
           price="£150"
-          href="https://www.cognitoforms.com/ShoutConnectLimited/_2024PrestonCityGamesRegistrationForm"
+          href="/registration"
           purple
         />
         <div>
@@ -63,7 +63,7 @@ export default function Price() {
             venue="Ashton and Lea Golf Club"
             teamsRequirements="Min. 1 players, Max. 4 players"
             price="£60 per person"
-            href="https://www.cognitoforms.com/ShoutConnectLimited/_2024PrestonCityGamesRegistrationForm"
+            href="/registration"
             blue
           />
 

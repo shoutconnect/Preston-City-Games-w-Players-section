@@ -239,15 +239,15 @@ export default function PriceCard({
             <p
               className={`uppercase text-xs font-bold ${
                 green
-                  ? "text-[rgb(34,197,94)]"
+                  ? "text-[#22c55e]"
                   : purple
-                  ? "text-[rgb(192,132,252)]"
+                  ? "text-[#c084fc]"
                   : orange
-                  ? "text-[rgb(251,146,60)]"
+                  ? "text-[#fb923c]"
                   : pink
-                  ? "text-[rgb(236,72,153)]"
+                  ? "text-[#ec4899]"
                   : blue
-                  ? "text-[rgb(125,211,252)]"
+                  ? "text-[#7dd3fc]"
                   : ""
               }`}
             >
@@ -260,7 +260,6 @@ export default function PriceCard({
       <div className="flex items-center justify-center -mt-5">
         <a
           href={href}
-          target="_blank"
           className={`relative rounded py-2 px-10 mb-6 overflow-hidden group ${
             green
               ? "bg-[rgb(34,197,94)]"
