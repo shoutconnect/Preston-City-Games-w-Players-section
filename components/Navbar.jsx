@@ -26,13 +26,7 @@ export default function Navbar() {
             href="/registration"
             className="text-neutral-50 hover:text-amber-200 font-semibold"
           >
-            Team Registration
-          </a>
-          <a
-            href="/registration-individual"
-            className="text-neutral-50 hover:text-amber-200 font-semibold"
-          >
-            Individual Registration
+            Registration
           </a>
         </div>
       </div>
