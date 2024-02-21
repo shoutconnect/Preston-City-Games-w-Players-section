@@ -4,7 +4,7 @@ import Image from "next/image";
 
 /////////////////////////////
 
-export default function TeamRegistration() {
+export default function IndividualRegistration() {
   return (
     <>
       <Head>
@@ -72,13 +72,13 @@ export default function TeamRegistration() {
           </svg>
         </div>
         <h1 className="text-4xl font-title text-slate-900 tracking-wide w-full text-center mt-6">
-          Team Registration Form
+          Individual Registration Form
         </h1>
         <div className="px-6 mx-auto max-w-7xl lg:px-8 pt-20 pb-28">
           <div className="flex max-lg:flex-col-reverse max-lg:gap-8 max-lg:items-center items-start">
             <iframe
-              src="https://www.cognitoforms.com/f/42nSYhyX7UC-l4nHKMTwuQ/29"
-              height="1035"
+              src="https://www.cognitoforms.com/f/42nSYhyX7UC-l4nHKMTwuQ/60"
+              height="945"
               className="w-full"
             ></iframe>
             <script src="https://www.cognitoforms.com/f/iframe.js"></script>
