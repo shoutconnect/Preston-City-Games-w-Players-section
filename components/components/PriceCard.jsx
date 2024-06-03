@@ -20,6 +20,7 @@ export default function PriceCard({
   orange,
   pink,
   blue,
+  yellow,
 }) {
   return (
     <section
@@ -39,6 +40,8 @@ export default function PriceCard({
             ? "text-[rgb(236,72,153)]"
             : blue
             ? "text-[rgb(125,211,252)]"
+            : yellow
+            ? "text-[rgb(251,191,36)]"
             : ""
         } mb-2`}
       >
@@ -57,6 +60,8 @@ export default function PriceCard({
           ? "hover:shadow-[rgb(236,72,153)]/20"
           : blue
           ? "hover:shadow-[rgb(125,211,252)]/20"
+          : yellow
+          ? "hover:shadow-[rgb(251,191,36)]/20"
           : ""
       }`}
       >
@@ -72,6 +77,8 @@ export default function PriceCard({
               ? "bg-[rgb(236,72,153)]"
               : blue
               ? "bg-[rgb(125,211,252)]"
+              : yellow
+              ? "bg-[rgb(251,191,36)]"
               : ""
           }`}
         >
@@ -114,6 +121,8 @@ export default function PriceCard({
                     ? "rgba(236,72,153,0.7)"
                     : blue
                     ? "rgba(125,211,252,0.7)"
+                    : yellow
+                    ? "rgba(251,191,36, 0.7)"
                     : ""
                 }`}
               />
@@ -132,6 +141,8 @@ export default function PriceCard({
                     ? "rgba(236,72,153,0.5)"
                     : blue
                     ? "rgba(125,211,252,0.5)"
+                    : yellow
+                    ? "rgba(251,191,36, 0.5)"
                     : ""
                 }`}
               />
@@ -150,6 +161,8 @@ export default function PriceCard({
                     ? "rgba(236,72,153,0.3)"
                     : blue
                     ? "rgba(125,211,252,0.3)"
+                    : yellow
+                    ? "rgba(251,191,36, 0.3)"
                     : ""
                 }`}
               />
@@ -168,6 +181,8 @@ export default function PriceCard({
                     ? "rgba(236,72,153)"
                     : blue
                     ? "rgba(125,211,252)"
+                    : yellow
+                    ? "rgba(251,191,36)"
                     : ""
                 }`}
               />
@@ -188,6 +203,8 @@ export default function PriceCard({
                   ? "text-[rgb(236,72,153)]"
                   : blue
                   ? "text-[rgb(125,211,252)]"
+                  : yellow
+                  ? "text-[rgb(251,191,36)]"
                   : ""
               }`}
             >
@@ -208,6 +225,8 @@ export default function PriceCard({
                   ? "text-[rgb(236,72,153)]"
                   : blue
                   ? "text-[rgb(125,211,252)]"
+                  : yellow
+                  ? "text-[rgb(251,191,36)]"
                   : ""
               }`}
             >
@@ -228,6 +247,8 @@ export default function PriceCard({
                   ? "text-[rgb(236,72,153)]"
                   : blue
                   ? "text-[rgb(125,211,252)]"
+                  : yellow
+                  ? "text-[rgb(251,191,36)]"
                   : ""
               }`}
             >
@@ -248,6 +269,8 @@ export default function PriceCard({
                   ? "text-[#ec4899]"
                   : blue
                   ? "text-[#7dd3fc]"
+                  : yellow
+                  ? "text-[#fbbf24]"
                   : ""
               }`}
             >
@@ -271,6 +294,8 @@ export default function PriceCard({
               ? "bg-[rgb(236,72,153)]"
               : blue
               ? "bg-[rgb(125,211,252)]"
+              : yellow
+              ? "bg-[rgb(251,191,36)]"
               : ""
           } hover:bg-gradient-to-r ${
             green
@@ -283,6 +308,8 @@ export default function PriceCard({
               ? "hover:from-[rgb(236,72,153)]"
               : blue
               ? "hover:from-[rgb(125,211,252)]"
+              : yellow
+              ? "hover:from-[rgb(251,191,36)]"
               : ""
           } ${
             green
@@ -295,6 +322,8 @@ export default function PriceCard({
               ? "hover:to-[rgba(236,72,153)]"
               : blue
               ? "hover:to-[rgba(125,211,252)]"
+              : yellow
+              ? "hover:to-[rgb(251,191,36)]"
               : ""
           },0.5)] text-white font-semibold hover:ring-2 hover:ring-offset-2 ${
             green
@@ -307,6 +336,8 @@ export default function PriceCard({
               ? "hover:ring-[rgb(236,72,153)]"
               : blue
               ? "hover:ring-[rgb(125,211,252)]"
+              : yellow
+              ? "hover:ring-[rgb(251,191,36)]"
               : ""
           } transition-all ease-out duration-300`}
         >

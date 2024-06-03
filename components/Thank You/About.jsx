@@ -78,7 +78,10 @@ export default function ThankYouAbout() {
               <br />
               Preston City Games is a fun, one day sporting festival that pits
               teams of businesses and charities against each other in
-              tournaments of rounders, football, netball and golf.{" "}
+              tournaments of rounders, football, netball and golf. New for 2024
+              is the addition of <span className="font-bold">boccia</span>, a
+              seated bowling game for competitive players, keen to participate
+              in a less physically demanding sport.
               <span className="font-bold">
                 <br />
                 <br />
