@@ -89,7 +89,7 @@ export default function ThankYouCta() {
                 >
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="/event2023hero/PG0623-112-min.jpg"
+                      src="https://i.ibb.co/FJ5WxyJ/PG0623-112-min.jpg"
                       alt="People practicing sports"
                       width={1000}
                       height={1000}
@@ -98,7 +98,7 @@ export default function ThankYouCta() {
                   </div>
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="/event2023hero/PG0623-43-min.jpg"
+                      src="https://i.ibb.co/C1MYqR4/PCG-1.jpg"
                       alt="People practicing sports"
                       width={1000}
                       height={1000}
@@ -112,7 +112,7 @@ export default function ThankYouCta() {
                 >
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="/event2023hero/PG0623-140-min.jpg"
+                      src="https://i.ibb.co/025BNCj/PCG-5.jpg"
                       alt="People practicing sports"
                       width={1000}
                       height={1000}
@@ -121,7 +121,7 @@ export default function ThankYouCta() {
                   </div>
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="/event2023hero/PG0623-363-min.jpg"
+                      src="https://i.ibb.co/7RwQ9Hf/PG0623-363-min.jpg"
                       alt="People practicing sports"
                       width={1000}
                       height={1000}
@@ -130,7 +130,7 @@ export default function ThankYouCta() {
                   </div>
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="/event2023hero/PG0623-207-min.jpg"
+                      src="https://i.ibb.co/7RwQ9Hf/PG0623-363-min.jpg"
                       alt="People practicing sports"
                       width={1000}
                       height={1000}
@@ -144,7 +144,7 @@ export default function ThankYouCta() {
                 >
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="/event2023hero/PG0623-166-min.jpg"
+                      src="https://i.ibb.co/yd3LqqQ/PCG-7.jpg"
                       alt="People practicing sports"
                       width={1000}
                       height={1000}
@@ -153,7 +153,7 @@ export default function ThankYouCta() {
                   </div>
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="/event2023hero/PG0623-340-min.jpg"
+                      src="https://i.ibb.co/HVGcmFy/PCG-32.jpg"
                       alt="People practicing sports"
                       width={1000}
                       height={1000}

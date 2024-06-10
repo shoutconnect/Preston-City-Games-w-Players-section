@@ -64,7 +64,7 @@ export default function ThankYouForm() {
               >
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
-                    src="/event2023hero/PG0623-197-min.jpg"
+                    src="https://i.ibb.co/rtdK1FZ/PCG-9.jpg"
                     alt="People practicing sports"
                     width={1000}
                     height={1000}
@@ -73,7 +73,7 @@ export default function ThankYouForm() {
                 </div>
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
-                    src="/event2023hero/PG0623-201-min.jpg"
+                    src="https://i.ibb.co/tCWgYMc/PCG-10.jpg"
                     alt="People practicing sports"
                     width={1000}
                     height={1000}
@@ -87,7 +87,7 @@ export default function ThankYouForm() {
               >
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
-                    src="/event2023hero/PG0623-354-min.jpg"
+                    src="https://i.ibb.co/56VNFzH/PG0623-354-min.jpg"
                     alt="People practicing sports"
                     width={1000}
                     height={1000}
@@ -96,7 +96,7 @@ export default function ThankYouForm() {
                 </div>
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
-                    src="/event2023hero/PG0623-325-min.jpg"
+                    src="https://i.ibb.co/hYrnbc2/PCG-30.jpg"
                     alt="People practicing sports"
                     width={1000}
                     height={1000}
@@ -105,7 +105,7 @@ export default function ThankYouForm() {
                 </div>
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
-                    src="/event2023hero/PG0623-357-min.jpg"
+                    src="https://i.ibb.co/qCnyBj5/PCG-34.jpg"
                     alt="People practicing sports"
                     width={1000}
                     height={1000}
@@ -119,7 +119,7 @@ export default function ThankYouForm() {
               >
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
-                    src="/event2023hero/PG0623-503-min.jpg"
+                    src="https://i.ibb.co/HhYm6fk/PCG-40.jpg"
                     alt="People practicing sports"
                     width={1000}
                     height={1000}
@@ -128,7 +128,7 @@ export default function ThankYouForm() {
                 </div>
                 <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                   <Image
-                    src="/event2023hero/PG0623-476-min.jpg"
+                    src="https://i.ibb.co/HgTzkmG/PCG-39.jpg"
                     alt="People practicing sports"
                     width={1000}
                     height={1000}

@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
 const path = require("path");
 const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+  },
   reactStrictMode: true,
   webpack(config) {
     config.module.rules.forEach((rule) => {
