@@ -22,12 +22,12 @@ export default function Navbar() {
           />
         </Link>
         <div className="flex gap-8">
-          <a
+          {/* <a
             href="/registration"
             className="text-neutral-50 hover:text-amber-200 font-semibold"
           >
             Registration
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

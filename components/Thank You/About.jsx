@@ -97,10 +97,10 @@ export default function ThankYouAbout() {
           data-aos="fade-up"
         >
           <p className="text-2xl font-bold text-amber-400">
-            Preston City Games 2023 was amazing, we can't wait to meet you all
-            again in 2024!
+            Preston City Games 2024 was amazing, we can't wait to meet you all
+            again in 2025!
           </p>
-          <p className="w-full">
+          <p className="w-full text-center">
             Preston City Games brought together businesses and charities for a
             day of friendly competition. In rounders, football, netball and
             golf, teams battled it out with sheer determination and competitive

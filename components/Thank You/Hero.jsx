@@ -72,31 +72,16 @@ export default function ThankYouHero() {
           data-aos="zoom-out"
           className="text-7xl max-xl:text-6xl max-md:text-5xl font-title tracking-wide text-white text-center mt-10"
         >
-          Preston City Games is back for 2024!
+          Preston City Games 2024 was a success!
           <br />
         </h1>
         <p
           data-aos="zoom-out"
           className="font-bold text-lg text-white text-center mt-5 w-[80%]"
         >
-          Following the success of the games in 2023, we look forward to
-          welcoming the businesses, charities and social enterprises of Preston
-          to the Preston City Games 2024.
+          Thank you to everyone who participated in the event. We hope to see
+          you again next year!
         </p>
-
-        <a href="#register">
-          <h1
-            data-aos="zoom-out"
-            className="text-3xl max-xl:text-2xl font-title tracking-wide text-white text-center mt-10"
-          >
-            Registrations for
-            <br />
-            <span className="text-amber-400"> Preston City Games 2024 </span>
-            <br />
-            are now open.
-            <br />
-          </h1>
-        </a>
       </div>
     </div>
   );
