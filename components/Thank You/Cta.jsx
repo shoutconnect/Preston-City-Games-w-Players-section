@@ -74,7 +74,7 @@ export default function ThankYouCta() {
               </p> */}{" "}
               <p className="text-slate-500 text-lg font-normal w-[80%] max-lg:w-[90%] max-sm:mb-16">
                 Our 2024 event was truly amazing. If you're keen to participate
-                in the Reston City Games in 2025, please get in touch with our
+                in the Preston City Games in 2025, please get in touch with our
                 team at{" "}
                 <span className="font-bold">info@shoutconnect.co.uk</span>. We
                 look forward to hearing from you!
