@@ -72,15 +72,14 @@ export default function ThankYouHero() {
           data-aos="zoom-out"
           className="text-7xl max-xl:text-6xl max-md:text-5xl font-title tracking-wide text-white text-center mt-10"
         >
-          Preston City Games 2024 was a success!
-          <br />
+          Preston City Games 2025 <br />
         </h1>
         <p
           data-aos="zoom-out"
           className="font-bold text-lg text-white text-center mt-5 w-[80%]"
         >
-          Thank you to everyone who participated in the event. We hope to see
-          you again next year!
+          Thank you to everyone who participated in the 2024 event. <br />
+          We hope to see you again this year!
         </p>
       </div>
     </div>

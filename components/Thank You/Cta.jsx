@@ -74,8 +74,13 @@ export default function ThankYouCta() {
               </p> */}{" "}
               <p className="text-slate-500 text-lg font-normal w-[80%] max-lg:w-[90%] max-sm:mb-16">
                 Our 2024 event was truly amazing. If you're keen to participate
-                in the Preston City Games in 2025, please get in touch with our
-                team at{" "}
+                in the Preston City Games in 2025,{" "}
+                <span className="font-bold">
+                  please complete the expression of interest form below
+                </span>
+                . <br />
+                <br />
+                If you have any questions, please get in touch with our team{" "}
                 <span className="font-bold">info@shoutconnect.co.uk</span>. We
                 look forward to hearing from you!
               </p>
@@ -127,7 +132,7 @@ export default function ThankYouCta() {
                   </div>
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="https://i.ibb.co/7RwQ9Hf/PG0623-363-min.jpg"
+                      src="https://i.ibb.co/X7mQzKF/PCG-4.jpg"
                       alt="People practicing sports"
                       width={1000}
                       height={1000}
@@ -172,7 +177,17 @@ export default function ThankYouCta() {
             </div>
           </div>
         </div>
+        <div className="pb-24 max-sm:pb-16 px-6 mx-auto max-w-7xl lg:px-8">
+          <iframe
+            src="https://www.cognitoforms.com/f/42nSYhyX7UC-l4nHKMTwuQ/91"
+            allow="payment"
+            height="1165"
+            className="w-full"
+          ></iframe>
+          <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+        </div>
       </div>
+
       <div className="absolute bottom-0  transform -scale-y-100 w-full rotate-180">
         <svg
           className="waves"
