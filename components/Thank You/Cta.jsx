@@ -61,11 +61,11 @@ export default function ThankYouCta() {
               <h1 className=" max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-slate-900 tracking-wide leading-[75px]">
                 Get your kit on!
               </h1>
-              <h1 className="text-4xl font-title text-slate-900 tracking-wide">
+              <h1 className="text-4xl font-title text-slate-900 tracking-wide w-3/4">
                 Unleash your teams for a{" "}
                 <span className="text-amber-400">
-                  day of outdoor competitive sport!
-                </span>
+                  day of outdoor competitive sport
+                </span>  on friday, 20th June 2025!
               </h1>
               {/* <p className="text-slate-500 text-lg font-normal w-[80%] max-lg:w-[90%]">
                 To participate in this year's games, just click on the button

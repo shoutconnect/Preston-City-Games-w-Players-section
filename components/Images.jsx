@@ -18,8 +18,8 @@ export default function Images() {
             <h1 className=" max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-white tracking-wide leading-[75px]">
               Unleash your teams for a{" "}
               <span className="text-amber-400">
-                day of outdoor competitive sport!
-              </span>
+                day of outdoor competitive sport
+              </span>,  on Friday, 20th June 2025!
             </h1>
             <p className="text-white text-lg">
               Not only will your teams have great fun competing against other
