@@ -75,7 +75,7 @@ export default function ThankYouHero() {
           Preston City Games 2025 <br />
           
         </h1>
-        <h4  className="text-3xl max-xl:text-xl max-md:text-lg font-title tracking-wide text-white text-center mt-2 texttext-amber-400"
+        <h4  className="text-3xl max-xl:text-xl max-md:text-lg font-title tracking-wide text-center mt-2 text-amber-400"
         >Friday, 20th June 2025</h4>
         <p
           data-aos="zoom-out"
