@@ -4,6 +4,7 @@
 // Outside data
 
 import Image from "next/image";
+import { FaCalendarCheck, FaCity, FaClock } from "react-icons/fa";
 
 /////////////////////////////
 
@@ -48,6 +49,31 @@ export default function ThankYouCta() {
           </g>
         </svg>
       </div>
+      <section className="pt-40 px-6 mx-auto max-w-7xl lg:px-8 grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-20 text-slate-500 w-full justify-center text-center">
+        <div className="text-xl font-semibold lg:border-r lg:border-white/20 w-full flex flex-col  gap-8 items-center">
+          <div className="bg-amber-400/20 p-6 rounded-full">
+            <FaCalendarCheck className="text-xl text-amber-400" />
+          </div>
+          Friday, <br />
+          20th June 2025
+        </div>{" "}
+        <div className="text-xl font-semibold lg:border-r lg:border-white/20 w-full flex flex-col  gap-8 items-center">
+          <div className="bg-amber-400/20 p-6 rounded-full">
+            <FaClock className="text-xl text-amber-400" />{" "}
+          </div>
+          From 12pm (noon)
+          <br />
+          till 4:30pm
+        </div>{" "}
+        <div className="text-xl font-semibold w-full flex flex-col  gap-8 items-center">
+          <div className="bg-amber-400/20 p-6 rounded-full">
+            {" "}
+            <FaCity className="text-xl text-amber-400" />{" "}
+          </div>
+          UCLAN Sports Arena, <br />
+          Tom Benson Way, Preston
+        </div>
+      </section>
       <div className="py-24 max-sm:py-16">
         <div className="px-6 mx-auto max-w-7xl lg:px-8 max-lg:my-16 my-10">
           <div className="flex max-lg:flex-col-reverse items-center gap-8 max-lg:gap-14">
@@ -65,7 +91,7 @@ export default function ThankYouCta() {
                 Unleash your teams for a{" "}
                 <span className="text-amber-400">
                   day of outdoor competitive sport
-                </span>  on friday, 20th June 2025!
+                </span>
               </h1>
               {/* <p className="text-slate-500 text-lg font-normal w-[80%] max-lg:w-[90%]">
                 To participate in this year's games, just click on the button
@@ -73,14 +99,17 @@ export default function ThankYouCta() {
                 will contact you.
               </p> */}{" "}
               <p className="text-slate-500 text-lg font-normal w-[80%] max-lg:w-[90%] max-sm:mb-16">
-                Our 2024 event was truly amazing. If you're keen to participate
-                in the Preston City Games in 2025,{" "}
                 <span className="font-bold">
-                  please complete the expression of interest form below
+                  Our 2024 event was truly amazing.{" "}
                 </span>
-                . <br />
+                If you're keen to participate in the Preston City Games in 2025,
+                taking place on Friday, 20th June 2025, from 12pm to 4:30pm at
+                UCLAN Sports Arena, then we'd love to hear from you! <br />
                 <br />
-                If you have any questions, please get in touch with our team{" "}
+                <span className="font-bold">
+                  Please complete the expression of interest form below
+                </span>{" "}
+                and if you have any questions, please get in touch with our team{" "}
                 <span className="font-bold">info@shoutconnect.co.uk</span>. We
                 look forward to hearing from you!
               </p>
@@ -177,6 +206,7 @@ export default function ThankYouCta() {
             </div>
           </div>
         </div>
+
         <div className="pb-24 max-sm:pb-16 px-6 mx-auto max-w-7xl lg:px-8">
           <iframe
             src="https://www.cognitoforms.com/f/42nSYhyX7UC-l4nHKMTwuQ/92"
@@ -187,7 +217,6 @@ export default function ThankYouCta() {
           <script src="https://www.cognitoforms.com/f/iframe.js"></script>
         </div>
       </div>
-
       <div className="absolute bottom-0  transform -scale-y-100 w-full rotate-180">
         <svg
           className="waves"

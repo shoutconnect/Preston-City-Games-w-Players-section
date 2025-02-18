@@ -11,6 +11,7 @@ import {
   RiLinkedinFill,
   RiTwitterFill,
 } from "react-icons/ri";
+import { FaCalendarCheck, FaCity, FaClock } from "react-icons/fa";
 
 /////////////////////////////
 
@@ -73,10 +74,8 @@ export default function ThankYouHero() {
           className="text-7xl max-xl:text-6xl max-md:text-5xl font-title tracking-wide text-white text-center mt-10"
         >
           Preston City Games 2025 <br />
-          
         </h1>
-        <h4  className="text-3xl max-xl:text-xl max-md:text-lg font-title tracking-wide text-center mt-2 text-amber-400"
-        >Friday, 20th June 2025</h4>
+
         <p
           data-aos="zoom-out"
           className="font-bold text-lg text-white text-center mt-5 w-[80%]"
