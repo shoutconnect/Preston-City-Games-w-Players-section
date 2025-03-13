@@ -61,9 +61,7 @@ export default function ThankYouCta() {
           <div className="bg-amber-400/20 p-6 rounded-full">
             <FaClock className="text-xl text-amber-400" />{" "}
           </div>
-          From 12pm (noon)
-          <br />
-          till 4:30pm
+          Event times to be confirmed
         </div>{" "}
         <div className="text-xl font-semibold w-full flex flex-col  gap-8 items-center">
           <div className="bg-amber-400/20 p-6 rounded-full">
