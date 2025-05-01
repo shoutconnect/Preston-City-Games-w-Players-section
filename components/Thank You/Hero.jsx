@@ -80,8 +80,9 @@ export default function ThankYouHero() {
           data-aos="zoom-out"
           className="font-bold text-lg text-white text-center mt-5 w-[80%]"
         >
-          Thank you to everyone who participated in the 2024 event. <br />
-          We hope to see you again this year!
+          If you're keen to participate in the Preston City Games in 2025,
+          taking place on Friday, 20th June 2025, from 12pm to 4:30pm at UCLAN
+          Sports Arena, then we'd love to hear from you!
         </p>
       </div>
     </div>

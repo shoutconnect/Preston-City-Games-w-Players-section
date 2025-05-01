@@ -98,19 +98,29 @@ export default function ThankYouCta() {
                 will contact you.
               </p> */}{" "}
               <p className="text-slate-500 text-lg font-normal w-[80%] max-lg:w-[90%] max-sm:mb-16">
+                Preston City Games 2025 is taking place on{" "}
                 <span className="font-bold">
-                  Our 2024 event was truly amazing.{" "}
-                </span>
-                If you're keen to participate in the Preston City Games in 2025,
-                taking place on Friday, 20th June 2025, from 12pm to 4:30pm at
-                UCLAN Sports Arena, then we'd love to hear from you! <br />
-                <br />
-                <span className="font-bold">
-                  Please complete the expression of interest form below
+                  Friday, 20th June 2025 at UCLAN Sports Arena.{" "}
                 </span>{" "}
-                and if you have any questions, please get in touch with our team{" "}
-                <span className="font-bold">info@shoutconnect.co.uk</span>. We
-                look forward to hearing from you!
+                Please submit your team entries using the form below and, if you
+                have any questions, please get in touch with our team:
+                info@shoutconnect.co.uk. <br />
+                <br />
+                We look forward to hearing from you!
+                <br />
+                <br />
+                Entry costs:
+                <br />
+                <span className="font-bold"> Football:</span> £100 + VAT <br />
+                <span className="font-bold"> Netball:</span> £125 + VAT
+                <br />
+                <span className="font-bold">Rounders:</span> £150 + VAT
+                <br />
+                <span className="font-bold">Boccia: </span>TBC <br />
+                <br />
+                <span className="italic">
+                  (Invoices will be sent to the email address on the entry form)
+                </span>
               </p>
               {/* <a
                 href="#register"

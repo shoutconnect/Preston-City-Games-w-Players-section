@@ -22,6 +22,11 @@ export default function App({ Component, pageProps }) {
         <meta name="description" content="Text" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <script
+          defer
+          src="https://umami.aronix.app/script.js"
+          data-website-id="69aa9e9a-2247-4808-aa55-182077b59a0c"
+        ></script>
       </Head>
       <main>
         <Layout>
