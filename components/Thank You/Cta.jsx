@@ -83,7 +83,7 @@ export default function ThankYouCta() {
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-slate-500/80 font-semibold ring-1 ring-slate-900/20 hover:ring-slate-900/40">
                 Don’t miss out on our games!{" "}
               </div>
-              <h1 className=" max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-slate-900 tracking-wide leading-[75px]">
+              <h1 className="max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-slate-900 tracking-wide leading-[75px]">
                 Get your kit on!
               </h1>
               <h1 className="text-4xl font-title text-slate-900 tracking-wide w-3/4">
@@ -217,6 +217,9 @@ export default function ThankYouCta() {
         </div>
 
         <div className="pb-24 max-sm:pb-16 px-6 mx-auto max-w-7xl lg:px-8">
+          <h1 className="text-4xl font-title text-slate-900 tracking-wide py-10">
+            ENTRY FORM 2025
+          </h1>
           <iframe
             src="https://www.cognitoforms.com/f/42nSYhyX7UC-l4nHKMTwuQ/92"
             allow="payment"
