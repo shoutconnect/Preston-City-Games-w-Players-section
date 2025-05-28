@@ -111,12 +111,20 @@ export default function ThankYouCta() {
                 <br />
                 Entry costs:
                 <br />
-                <span className="font-bold"> Football:</span> £100 + VAT <br />
-                <span className="font-bold"> Netball:</span> £125 + VAT
+                <span className="font-bold">• Football:</span> £100 + VAT <br />
+                <span className="text-sm">(7-9 players per team)</span>
                 <br />
-                <span className="font-bold">Rounders:</span> £150 + VAT
+                <span className="font-bold">• Netball:</span> £125 + VAT
                 <br />
-                <span className="font-bold">Boccia: </span>TBC <br />
+                <span className="text-sm"> (7-12 players per team)</span>
+                <br />
+                <span className="font-bold">• Rounders:</span> £150 + VAT
+                <br />
+                <span className="text-sm">(9-15 players per team)</span>
+                <br />
+                <span className="font-bold">• Boccia: </span>TBC <br />
+                <span className="text-sm">(3 per team)</span>
+                <br />
                 <br />
                 <span className="italic">
                   (Invoices will be sent to the email address on the entry form)
