@@ -83,6 +83,11 @@ export default function ThankYouHero() {
           If you're keen to participate in the Preston City Games in 2025,
           taking place on Friday, 20th June 2025, from 12pm to 4:30pm at UCLAN
           Sports Arena, then we'd love to hear from you!
+          <br />
+          <br />
+          <span className="text-amber-400">
+            Deadline for team entries - 5pm Thursday 12th June
+          </span>
         </p>
       </div>
     </div>
