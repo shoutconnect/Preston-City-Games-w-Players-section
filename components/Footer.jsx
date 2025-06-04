@@ -27,13 +27,8 @@ export default function Footer() {
     },
     {
       name: "Instagram",
-      href: "https://www.instagram.com/shoutconnecthq/",
+      href: "https://www.instagram.com/weareshoutconnect/",
       icon: <RiInstagramFill className="h-6 w-6" />,
-    },
-    {
-      name: "Twitter",
-      href: "https://twitter.com/pr_citygames",
-      icon: <RiTwitterXFill className="h-6 w-6" />,
     },
   ];
 
