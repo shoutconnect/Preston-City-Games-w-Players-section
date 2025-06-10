@@ -61,8 +61,8 @@ export default function ThankYouCta() {
           <div className="bg-amber-400/20 p-6 rounded-full">
             <FaClock className="text-xl text-amber-400" />{" "}
           </div>
-          Event times <br />
-          to be confirmed
+          12pm - 4.30pm*
+          <br />
         </div>{" "}
         <div className="text-xl font-semibold w-full flex flex-col  gap-8 items-center">
           <div className="bg-amber-400/20 p-6 rounded-full">
@@ -72,6 +72,13 @@ export default function ThankYouCta() {
           UCLAN Sports Arena, <br />
           Tom Benson Way, Preston
         </div>
+      </section>
+      <section className="pt-10 px-6 mx-auto max-w-7xl lg:px-8 gap-10 lg:gap-20 text-slate-500 w-full justify-center text-center">
+        * The competitions will take place throughout the afternoon, from 12pm –
+        4.30pm.
+        <br className="max-sm:hidden" /> There will also be some football
+        competitions during the morning, teams taking part in those fixtures
+        will be notified in advance.
       </section>
       <div className="py-24 max-sm:py-16">
         <div className="px-6 mx-auto max-w-7xl lg:px-8 max-lg:my-16 my-10">
