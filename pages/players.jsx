@@ -106,9 +106,7 @@ export default function Players() {
                   <p>
                     Events include Rounders, Netball, Boccia and Football. The
                     competitions will take place throughout the afternoon, from
-                    12pm - 4.30pm. There will also be some football competitions
-                    during the morning, teams taking part in those fixtures will
-                    have been notified in advance.
+                    12pm - 4.30pm.
                   </p>
                 </div>
               </div>
@@ -188,13 +186,13 @@ export default function Players() {
                   <p>
                     Please can all competitors report to{" "}
                     <span class="font-bold text-slate-900">Event HQ</span> on
-                    arrival,This will be situated on the grass verge next to the
-                    car park.
+                    arrival, at 12 noon. This will be situated on the grass
+                    verge next to the car park.
                   </p>
                   <p>
                     All team captains will be required to report to the
-                    registration desk to sign in and collect information packs
-                    and t-shirts for their teams.
+                    registration desk to sign in and collect fixture lists,
+                    information packs and t-shirts for their teams.
                   </p>
                 </div>
               </div>
