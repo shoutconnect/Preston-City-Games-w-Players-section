@@ -469,29 +469,91 @@ export default function Players() {
               </Typography>
             </AccordionSummary>
             <AccordionDetails className="px-6 py-6 bg-gray-50 border-t border-gray-200">
-              <div className="flex flex-col gap-4 items-start">
-                Please click the button below to download the rules and
-                regulations for rounders.
-                <a
-                  href="/pdfs/Preston_City_Games_Rounders_Rules.jpg"
-                  download="Preston_City_Games_Rounders_Rules.jpg"
-                  className="inline-flex items-center px-4 py-2 bg-amber-400 text-white rounded-md hover:bg-amber-300 transition-colors duration-200 font-medium"
-                >
-                  <svg
-                    className="w-5 h-5 mr-2"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2z"
-                    ></path>
-                  </svg>
-                  Download Rules
-                </a>
+              <div className="text-gray-700 text-base leading-relaxed">
+                <ul className="space-y-3">
+                  <li>
+                    <strong>Kit:</strong> Teams are advised to wear the
+                    same-coloured tops
+                  </li>
+                  <li>
+                    <strong>Venue:</strong> UCLan Sports Arena – Outdoor Grass
+                    Pitches
+                  </li>
+                  <li>
+                    <strong>Teams:</strong>
+                    <ul className="ml-6 mt-2 space-y-1">
+                      <li>• Mixed gender</li>
+                      <li>
+                        • Squad numbers can be between 9–12 with a maximum of 9
+                        playing at any one time
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Format:</strong>
+                    <ul className="ml-6 mt-2 space-y-1">
+                      <li>
+                        • At the end of every match the captain must sign the
+                        umpire's score card to confirm the scores
+                      </li>
+                      <li>
+                        • Substitutions can only be made during the game if
+                        there is an injury to one of the 9 players and is at the
+                        discretion of the umpire
+                      </li>
+                      <li>
+                        • All teams are entered into a round robin group and
+                        will play each other once
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Rules:</strong>
+                    <ul className="ml-6 mt-2 space-y-1">
+                      <li>
+                        • All games will be started and ended by the umpires
+                      </li>
+                      <li>
+                        • All games will be umpired according to RE rules and
+                        regulations. See{" "}
+                        <a
+                          href="https://www.roundersengland.co.uk"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:underline"
+                        >
+                          https://www.roundersengland.co.uk
+                        </a>
+                      </li>
+                      <li>
+                        <div className="flex flex-col gap-4 items-start">
+                          • Please click the button below to download the rules
+                          and regulations for rounders.
+                          <a
+                            href="/pdfs/Preston_City_Games_Rounders_Rules.jpg"
+                            download="Preston_City_Games_Rounders_Rules.jpg"
+                            className="inline-flex items-center mb-4 px-4 py-2 bg-amber-400 text-white rounded-md hover:bg-amber-300 transition-colors duration-200 font-medium"
+                          >
+                            <svg
+                              className="w-5 h-5 mr-2"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2z"
+                              ></path>
+                            </svg>
+                            Download Rules
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
             </AccordionDetails>
           </Accordion>
