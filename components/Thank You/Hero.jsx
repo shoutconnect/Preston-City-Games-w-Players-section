@@ -78,16 +78,10 @@ export default function ThankYouHero() {
 
         <p
           data-aos="zoom-out"
-          className="font-bold text-lg text-white text-center mt-5 w-[80%]"
+          className="font-bold text-lg text-white text-center mt-5 md:w-[75%]"
         >
-          If you're keen to participate in the Preston City Games in 2025,
-          taking place on Friday, 20th June 2025, from 12pm to 4:30pm at UCLAN
-          Sports Arena, then we'd love to hear from you!
-          <br />
-          <br />
-          <span className="text-amber-400">
-            Deadline for team entries - 5pm Thursday 12th June
-          </span>
+          Thank you very much to all the businesses, organisations and charities
+          who took part in Preston City Games 2025 - it was a great day!
         </p>
       </div>
     </div>

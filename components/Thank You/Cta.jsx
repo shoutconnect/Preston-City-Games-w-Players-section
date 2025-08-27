@@ -54,14 +54,16 @@ export default function ThankYouCta() {
           <div className="bg-amber-400/20 p-6 rounded-full">
             <FaCalendarCheck className="text-xl text-amber-400" />
           </div>
-          Friday, <br />
-          20th June 2025
+          Date
+          <br />
+          TBC
         </div>{" "}
         <div className="text-xl font-semibold lg:border-r lg:border-white/20 w-full flex flex-col  gap-8 items-center">
           <div className="bg-amber-400/20 p-6 rounded-full">
             <FaClock className="text-xl text-amber-400" />{" "}
           </div>
-          12pm - 4.30pm*
+          Time <br />
+          TBC
           <br />
         </div>{" "}
         <div className="text-xl font-semibold w-full flex flex-col  gap-8 items-center">
@@ -73,13 +75,13 @@ export default function ThankYouCta() {
           Tom Benson Way, Preston
         </div>
       </section>
-      <section className="pt-10 px-6 mx-auto max-w-7xl lg:px-8 gap-10 lg:gap-20 text-slate-500 w-full justify-center text-center">
+      {/* <section className="pt-10 px-6 mx-auto max-w-7xl lg:px-8 gap-10 lg:gap-20 text-slate-500 w-full justify-center text-center">
         * The competitions will take place throughout the afternoon, from 12pm –
         4.30pm.
         <br className="max-sm:hidden" /> There will also be some football
         competitions during the morning, teams taking part in those fixtures
         will be notified in advance.
-      </section>
+      </section> */}
       <div className="py-24 max-sm:py-16">
         <div className="px-6 mx-auto max-w-7xl lg:px-8 max-lg:my-16 my-10">
           <div className="flex max-lg:flex-col-reverse items-center gap-8 max-lg:gap-14">
@@ -99,51 +101,19 @@ export default function ThankYouCta() {
                   day of outdoor competitive sport
                 </span>
               </h1>
-              {/* <p className="text-slate-500 text-lg font-normal w-[80%] max-lg:w-[90%]">
-                To participate in this year's games, just click on the button
-                below, select your preferred sport, fill out the form and we
-                will contact you.
-              </p> */}{" "}
+
               <p className="text-slate-500 text-lg font-normal w-[80%] max-lg:w-[90%] max-sm:mb-16">
-                Preston City Games 2025 is taking place on{" "}
-                <span className="font-bold">
-                  Friday, 20th June 2025 at UCLAN Sports Arena.{" "}
-                </span>{" "}
-                Please submit your team entries using the form below and, if you
-                have any questions, please get in touch with our team:
-                info@shoutconnect.co.uk. <br />
-                <br />
-                We look forward to hearing from you!
-                <br />
-                <br />
-                Entry costs:
-                <br />
-                <span className="font-bold">• Football:</span> £100 + VAT <br />
-                <span className="text-sm">(7-9 players per team)</span>
-                <br />
-                <span className="font-bold">• Netball:</span> £125 + VAT
-                <br />
-                <span className="text-sm"> (7-12 players per team)</span>
-                <br />
-                <span className="font-bold">• Rounders:</span> £150 + VAT
-                <br />
-                <span className="text-sm">(9-15 players per team)</span>
-                <br />
-                <span className="font-bold">• Boccia: </span>TBC <br />
-                <span className="text-sm">(3 per team)</span>
-                <br />
-                <br />
-                <span className="italic">
-                  (Invoices will be sent to the email address on the entry form)
-                </span>
+                The date for Preston City Games 2026 will be announced soon.
+                Please get in touch with our team if you would like any
+                information or to register your interest to take part:{" "}
+                <a
+                  href="mailto:info@shoutconnect.co.uk"
+                  className="text-slate-700 font-bold"
+                >
+                  info@shoutconnect.co.uk
+                </a>
+                . We look forward to hearing from you!
               </p>
-              {/* <a
-                href="#register"
-                className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-amber-400 hover:bg-gradient-to-r hover:from-amber-400 hover:to-amber-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-amber-400 transition-all ease-out duration-300"
-              >
-                <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                <span className="relative">Register now</span>
-              </a> */}
             </div>
             <div className="relative w-1/2 max-lg:w-full">
               <div className="flex items-center justify-center space-x-6 lg:space-x-8">
@@ -231,7 +201,7 @@ export default function ThankYouCta() {
           </div>
         </div>
 
-        <div className="pb-24 max-sm:pb-16 px-6 mx-auto max-w-7xl lg:px-8">
+        {/* <div className="pb-24 max-sm:pb-16 px-6 mx-auto max-w-7xl lg:px-8">
           <h1 className="text-4xl font-title text-slate-900 tracking-wide py-10">
             ENTRY FORM 2025
           </h1>
@@ -242,6 +212,44 @@ export default function ThankYouCta() {
             className="w-full"
           ></iframe>
           <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+        </div> */}
+        <div className="pb-24 max-sm:pb-16 px-6 mx-auto max-w-7xl lg:px-8 pt-10 md:pt-20">
+          <div className="relative">
+            <div className="relative z-10">
+              <div className="text-center mb-12">
+                <h3 className="text-4xl font-title text-slate-900 mb-4 tracking-wide">
+                  Congratulations to the Winners!
+                </h3>
+                <p className="text-slate-600 text-lg max-w-2xl mx-auto">
+                  A fantastic display of skill, teamwork, and sportsmanship from
+                  all participants
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 ">
+                {[
+                  { sport: "Football", winner: "Preston Strikers" },
+                  { sport: "Netball", winner: "Savvytouch UK" },
+                  { sport: "Boccia", winner: "Preston City Council" },
+                  { sport: "Rounders", winner: "Northern Trust Company" },
+                ].map((item, index) => (
+                  <div key={index} className="group relative">
+                    <div className="relative bg-white rounded-lg p-8 border border-slate-100 transition-all duration-300 transform hover:-translate-y-1 shadow-md shadow-slate-50">
+                      <div className="text-center">
+                        <span className="text-3xl">🏆</span>
+                        <h4 className="text-lg font-bold text-slate-900 mt-2 uppercase ">
+                          {item.sport}
+                        </h4>
+                        <p className="text-amber-600 font-bold text-lg">
+                          {item.winner}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="absolute bottom-0  transform -scale-y-100 w-full rotate-180">
